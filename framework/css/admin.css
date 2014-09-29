@@ -1,0 +1,44 @@
+/*
+* admin.css v1.0.0
+*/
+
+
+.mce-i-none { opacity: 0.5; }
+
+.mce-ico {
+  font: 400 20px/1 dashicons !important;
+  padding: 0;
+  vertical-align: top;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: -2px;
+  padding-right: 2px
+}
+
+.mce-i-columns:before              { content: "\f479"; }
+.mce-i-space:before                { content: "\f138"; }
+.mce-i-divider:before              { content: "\f168"; }
+.mce-i-headline:before             { content: "\f163"; }
+.mce-i-accordion:before            { content: "\f480"; }
+.mce-i-tabs:before                 { content: "\f318"; }
+.mce-i-styled-table:before         { content: "\f180"; }
+.mce-i-googlefont:before           { content: "\f215"; }
+.mce-i-highlight:before            { content: "\f339"; }
+.mce-i-icon:before                 { content: "\f502"; }
+.mce-i-buttons:before              { content: "\f159"; }
+.mce-i-list:before                 { content: "\f203"; }
+.mce-i-box:before                  { content: "\f336"; }
+.mce-i-icon-box:before             { content: "\f183"; }
+.mce-i-video-embed:before          { content: "\f235"; }
+.mce-i-responsive-image:before     { content: "\f128"; }
+.mce-i-google-maps:before          { content: "\f230"; }
+.mce-i-recent-posts:before         { content: "\f109"; }
+.mce-i-recent-news:before          { content: "\f464"; }
+.mce-i-recent-portfolio:before     { content: "\f161"; }
+.mce-i-recent-event:before         { content: "\f145"; }
+.mce-i-member:before               { content: "\f307"; }
+
+
+/* -- Category Order and Taxonomy Terms Order Infobox Hidden -- */
+#cpt_info_box { display: none; }
