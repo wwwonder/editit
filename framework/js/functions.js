@@ -1,6 +1,14 @@
-/*
-* functions.js v1.0.0
-*/
+/**
+ *
+ * Functions
+ *
+ * @file           functions.js
+ * @package        editit
+ * @author         Masato Takahashi
+ * @copyright      2014 wwwonder
+ * @version        Release: 1.0.0
+ * @filesource     wp-content/themes/editit/framework/ja/functions.js
+ */
 
 jQuery(document).ready(function($){
 
