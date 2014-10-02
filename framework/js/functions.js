@@ -6,7 +6,7 @@
  * @package        editit
  * @author         Masato Takahashi
  * @copyright      2014 wwwonder
- * @version        Release: 1.0.0
+ * @version        Release: 1.0.1
  * @filesource     wp-content/themes/editit/framework/ja/functions.js
  */
 
@@ -126,7 +126,7 @@ jQuery(document).ready(function($){
   $('.copyright .social-icons li a').tooltip({placement: 'top'});
   $('.sharebox .social-icons li a').tooltip({placement: 'bottom'});
   $('.author-info .social-icons li a').tooltip({placement: 'bottom'});
-  $('.member-social .social-icons li a').tooltip({placement: 'bottom'});
+  $('.member-social .social-icons li a').tooltip({placement: 'top'});
 
 
 
