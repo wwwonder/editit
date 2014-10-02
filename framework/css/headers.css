@@ -1,0 +1,261 @@
+/**
+ * @file           headers.css
+ * @package        editit
+ * @author         Masato Takahashi
+ * @copyright      2014 wwwonder
+ * @version        Release: 1.0.0
+ * @filesource     wp-content/themes/editit/framework/css/headers.css
+ */
+
+
+
+/* ------------------------------------------------------------------------ */
+/* 08. Header */
+/* ------------------------------------------------------------------------ */
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+  .header .logo {
+    margin-top: 30px;
+    line-height: 1.0;
+  }
+
+    .header .logo a.logo-text {
+      font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+      font-size: 30px;
+      color: #000;
+    }
+
+    .header .logo img { 
+      max-width: 100%;
+      height: auto;
+    }
+
+    .header .logo .logo-retina { display: none; }
+
+
+    /* -- Header Navigation Common -- */
+
+    .header .navigation .select-menu {
+      display: none;
+      background-color: #fff !important;
+    }
+
+    .header .navigation ul { list-style: none; }
+
+      .header .navigation ul li {
+        -webkit-transition: all 0.3s ease-in-out;
+           -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+             -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+      }
+
+      .header .navigation ul li {
+        float: left;
+        position: relative;
+        margin-bottom: 0;
+      }
+
+        .header .navigation ul li a {
+          display: block;
+          float: left;
+        }
+
+      .header .navigation ul.menu { margin-bottom: 0; }
+
+      /* -- Main Menu -- */
+
+      .header .navigation ul.menu > li {
+        background-color: #fff;
+        border-bottom: 3px solid #fff;
+      }
+
+      .header .navigation ul.menu > li:hover,
+      .header .navigation ul.menu > li.current_page_item,
+      .header .navigation ul.menu > li.current-menu-item,
+      .header .navigation ul.menu > li.current-page-ancestor,
+      .header .navigation ul.menu > li.current-menu-ancestor,
+      .header .navigation ul.menu > li.current-menu-parent,
+      .header .navigation ul.menu > li.current_page_ancestor {
+        background-color: #f9f9f9;
+        border-bottom-color: #0074a2;
+      }
+
+        .header .navigation ul.menu > li > a { color: #666; }
+
+        .header .navigation ul.menu > li:hover > a { color: #333; }
+
+        .header .navigation ul.menu > li.current_page_item > a,
+        .header .navigation ul.menu > li.current-menu-item > a,
+        .header .navigation ul.menu > li.current-page-ancestor > a,
+        .header .navigation ul.menu > li.current-menu-ancestor > a,
+        .header .navigation ul.menu > li.current-menu-parent > a,
+        .header .navigation ul.menu > li.current_page_ancestor > a {
+          font-weight: bold;
+          color: #0074a2;
+        }
+
+        .header .navigation ul.menu > li.current_page_item:hover > a,
+        .header .navigation ul.menu > li.current-menu-item:hover > a,
+        .header .navigation ul.menu > li.current-page-ancestor:hover > a,
+        .header .navigation ul.menu > li.current-menu-ancestor:hover > a,
+        .header .navigation ul.menu > li.current-menu-parent:hover > a,
+        .header .navigation ul.menu > li.current_page_ancestor:hover > a {
+          color: #0074a2;
+        }
+
+
+        /* -- Sub Menu -- */
+
+        .header .navigation .sub-menu {
+          top: 86px;
+          left: 0px;
+          position: absolute;
+          z-index: 12000;
+          border-top: 3px solid #0074a2;
+          margin: 0;
+          display:none;
+        }
+
+            .header .navigation .sub-menu li ul {
+              top: 1px !important;
+              left: 206px !important;
+              border-top: none;
+            }
+
+          .header .navigation .sub-menu li { height: auto !important; }
+
+          .header .navigation .sub-menu > li:first-child > a { border-top: none !important; }
+
+          .header .navigation .sub-menu > li:last-child > a { border-bottom: none !important; }
+
+            .header .navigation .sub-menu li a {
+              display: block !important;
+              padding: 15px 13px !important;
+              width: 206px;
+              line-height: 1 !important;
+              font-size: 11px !important;
+              background-color: #333;
+              color: #fff;
+              border-top: 1px solid #3f3f3f;
+              border-bottom: 1px solid #262626;
+            }
+
+            .header .navigation .sub-menu li a:hover {
+              color: #ccc;
+              background-color: #262626;
+            }
+
+            .header .navigation .sub-menu  li.current_page_item > a,
+            .header .navigation .sub-menu  li.current_page_item:hover > a,
+            .header .navigation .sub-menu  li.current-menu-item > a,
+            .header .navigation .sub-menu  li.current-menu-item:hover > a {
+              color: #ccc;
+              background-color: #262626;
+            }
+
+
+
+/* -- Header V1 -- */
+
+.header-v1 { height: 90px; }
+
+    .header-v1 .navigation ul.menu { float: right; }
+
+        .header-v1 .navigation > ul.menu > li > a {
+          height: 86px;
+          line-height: 86px;
+          padding: 0px 15px;
+        }
+
+
+/* -- Header V2,V3 - Common -- */
+
+.header-v2,
+.header-v3 { height: auto; }
+
+  .header-v2 .navigation,
+  .header-v3 .navigation {
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;
+  }
+
+        .header-v2 .navigation .sub-menu,
+        .header-v3 .navigation .sub-menu { top: 50px !important; }
+
+        .header-v2 .navigation ul li a,
+        .header-v3 .navigation ul li a { padding: 0px 20px; }
+
+
+/* -- Header V2 -- */
+
+  .header-v2-container { height: 90px; }
+
+    .header-v2 .slogan {
+      margin-top: 33px;
+      text-align: right;
+    }
+
+    .header-v2 .navigation ul.menu {
+      float: left;
+      margin: 0 !important;
+      height: 53px;
+    }
+
+        .header-v2 .navigation ul.menu > li > a {
+          height: 50px !important;
+          line-height: 50px !important;
+        }
+
+/* -- Header V3 -- */
+
+  .header-v3-container { height: 120px; }
+
+    .header-v3 .logo { text-align: center; }
+
+    .header-v3 .slogan {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .header-v3 .navigation ul.menu {
+      margin: 0 !important;
+      text-align: center !important;
+      height: 53px;
+    }
+
+      .header-v3 .navigation ul.menu >li {
+        float: none;
+        display: inline-block !important;
+        position: relative !important;
+        margin: 0 -4px 0 0 !important;
+        line-height: 1;
+        text-align: left !important;
+      }
+
+        .header-v3 .navigation ul.menu > li > a {
+          display: inline-block !important;
+          position: relative !important;
+          height: 50px !important;
+          line-height: 50px !important;
+        }
+
+
+/* -- Sticky Header -- */
+@media only screen and (min-width: 960px) {
+  .stuck {
+    margin: 0 auto !important;
+    position: fixed !important;
+    top: 0;
+    z-index: 2000;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .sticky-wrapper{ height: auto !important; }
+}
