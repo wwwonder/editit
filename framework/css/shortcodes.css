@@ -3,7 +3,7 @@
  * @package        editit
  * @author         Masato Takahashi
  * @copyright      2014 wwwonder
- * @version        Release: 1.0.0
+ * @version        Release: 1.0.1
  * @filesource     wp-content/themes/editit/framework/css/shortcodes.css
  */
 
@@ -652,14 +652,14 @@ ul.styled-list {
 
     ul.styled-list li i { margin-right: 6px; }
 
-	ul.styled-list.bordered li {
-	  border-bottom-width: 1px;
-	  border-bottom-color: #CCC;
-	  border-bottom-style: solid;
-	  padding-bottom: 8px;
-	}
+  ul.styled-list.bordered li {
+    border-bottom-width: 1px;
+    border-bottom-color: #CCC;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+  }
 
-	ul.styled-list.bordered.dotted li { border-bottom-style: dotted; }
+  ul.styled-list.bordered.dotted li { border-bottom-style: dotted; }
 
 
 
@@ -897,10 +897,6 @@ ul.styled-list {
           overflow: hidden;
           text-overflow: ellipsis;
         }
-
-          .recent-portfolio-item .portfolio-content .portfolio-content-header .portfolio-title h2 a { color: #0074a2 !important; }
-
-          .recent-portfolio-item .portfolio-content .portfolio-content-header .portfolio-title h2 a:hover { color: #999 !important; }
 
         .recent-portfolio-item .portfolio-content .portfolio-content-header .portfolio-title h3 {
           font-size: 11px;

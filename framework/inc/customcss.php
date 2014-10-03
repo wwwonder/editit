@@ -222,7 +222,7 @@ global $smof_data;
 
   /* -- Header V1 -- */
   .header-v1 {
-    <?php if($smof_data['text_headerheight'] != "") { echo 'height: ' . ( $smof_data['text_headerheight'] + 3 ) . 'px;'; } ?>
+    <?php if($smof_data['text_headerheight'] != "") { echo 'height: ' . ( $smof_data['text_headerheight'] + 4 ) . 'px;'; } ?>
   }
 
   .header-v1 .navigation .sub-menu {
