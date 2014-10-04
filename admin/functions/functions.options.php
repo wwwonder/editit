@@ -1,9 +1,4 @@
 <?php
-/**
- * SMOF Functions Options
- * v1.0.0
- */
-
 
 add_action('init','of_options');
 
@@ -361,6 +356,7 @@ $of_options[] = array(
                 );
 
 
+
 /* ------------------------------------------------------------------------ */
 /* Color Themes
 /* ------------------------------------------------------------------------ */
@@ -388,10 +384,10 @@ $of_options[] = array(
                   "type"      => "images",
                   "options"   => array(
                                    "default"    => get_bloginfo('template_directory')."/framework/images/colorthemes/default.gif",
-                                   "pinkchocolate"  => get_bloginfo('template_directory')."/framework/images/colorthemes/pinkchocolate.gif",
-                                   "mono"  => get_bloginfo('template_directory')."/framework/images/colorthemes/mono.gif"
+                                   "mono"       => get_bloginfo('template_directory')."/framework/images/colorthemes/mono.gif"
                                  )
                 );
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -480,6 +476,7 @@ $of_options[] = array(
                 ); 
 
 
+
   /* Topbar Colors ------------------------------------------------------------------------ */
 
 $of_options[] = array(
@@ -562,6 +559,7 @@ $of_options[] = array(
                   "std"       => "",
                   "type"      => "color"
                 );
+
 
 
   /* Header Colors ------------------------------------------------------------------------ */
@@ -1146,6 +1144,35 @@ $of_options[] = array(
                 );
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------------------------------------ */
 /* Typography
 /* ------------------------------------------------------------------------ */
@@ -1375,6 +1402,9 @@ $of_options[] = array(
                 );
 
 
+
+
+
 /* ------------------------------------------------------------------------ */
 /* 06.Blog
 /* ------------------------------------------------------------------------ */
@@ -1471,6 +1501,20 @@ $of_options[] = array(
                   "std"       => 1,
                   "type"      => "switch"
                 );  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -1579,6 +1623,7 @@ $of_options[] = array(
                   "std"       => 1,
                   "type"      => "switch"
                 );  
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -1708,6 +1753,8 @@ $of_options[] = array(
                 );
 
 
+
+
 /* ------------------------------------------------------------------------ */
 /* 09.Menu
 /* ------------------------------------------------------------------------ */
@@ -1810,6 +1857,11 @@ $of_options[] = array(
                 );
 
 
+
+
+
+
+
 /* ------------------------------------------------------------------------ */
 /* 10.Event
 /* ------------------------------------------------------------------------ */
@@ -1830,6 +1882,8 @@ $of_options[] = array(
                   "icon"      => false,
                   "type"      => "info"
                 );
+
+
 
 $of_options[] = array(
                   "name"      => __('Language of the date', 'editit'),
@@ -1855,6 +1909,9 @@ $of_options[] = array(
                   "type"      => "info"
                 );
 
+
+
+
 $of_options[] = array(
                   "name"      => __('Event Slug', 'editit'),
                   "desc"      => __('Enter the URL Slug for your Event (Default: event) <br /><strong>Go save your permalinks after changing this.</strong>', 'editit'),
@@ -1862,6 +1919,7 @@ $of_options[] = array(
                   "std"       => "event",
                   "type"      => "text"
                 );
+
 
 $of_options[] = array(
                   "name"      => __('Day of the opening', 'editit'),
@@ -1986,6 +2044,11 @@ $of_options[] = array(
                 );
 
 
+
+
+
+
+
 /* ------------------------------------------------------------------------ */
 /* 11.Member
 /* ------------------------------------------------------------------------ */
@@ -2088,6 +2151,11 @@ $of_options[] = array(
                 );
 
 
+
+
+
+
+
 /* ------------------------------------------------------------------------ */
 /* 12.Footer
 /* ------------------------------------------------------------------------ */
@@ -2135,6 +2203,15 @@ $of_options[] = array(
                   "std"       => 1,
                   "type"      => "switch"
                 ); 
+
+
+
+
+
+
+
+
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -2268,6 +2345,7 @@ $of_options[] = array(
                   "type"      => "text"
                 ); 
 
+
 $of_options[] = array(
                   "name"      => __('Show RSS', 'editit'),
                   "desc"      => __('Default', 'editit') . ': ON',
@@ -2275,6 +2353,9 @@ $of_options[] = array(
                   "std"       => 1,
                   "type"      => "switch"
                 );
+
+
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -2386,6 +2467,9 @@ $of_options[] = array(
                 );
 
 
+
+
+
 /* ------------------------------------------------------------------------ */
 /* 15.Backup Options
 /* ------------------------------------------------------------------------ */
@@ -2411,6 +2495,14 @@ $of_options[] = array(
                   "type"      => "transfer",
                   "desc"      => __('You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click "Import Options".', 'editit'),
                 );
+
+
+
+
+
+
+
+
 
 
   }//End function: of_options()
