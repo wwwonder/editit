@@ -334,8 +334,6 @@
 
       .styled-table.style-1 thead td { background-color: #fff; }
 
-    .styled-table.style-1 tbody tr:hover { background-color: #f9f9f9; }
-
       .styled-table.style-1 tbody th { background-color: #f9f9f9; }
 
 
@@ -351,7 +349,6 @@
 
     .styled-table.style-2 tbody tr { border-bottom: 1px solid #ebebeb; }
 
-    .styled-table.style-2 tbody tr:hover { background-color: #f9f9f9; }
 
 
 
