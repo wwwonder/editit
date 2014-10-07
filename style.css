@@ -255,15 +255,18 @@ ol {
   margin-left: 0px; 
 }
 
-ul { list-style: square inside; }
+ul { list-style: disc inside; }
 
 ol { list-style: decimal inside; }
 
     ul li ul,
     ul li ol,
     ol li ul,
-    ol li ol { margin-bottom: 0; }
-
+    ol li ol {
+      margin-bottom: 0;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
 
 ul li,
 ol li {
