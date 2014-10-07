@@ -582,7 +582,19 @@
     .portfolio-widget-item:nth-child(3n),
     .footer .one-third .portfolio-widget-item:nth-child(3n),
     .footer .eight .portfolio-widget-item:nth-child(3n),
-    .footer .sixteen .portfolio-widget-item:nth-child(3n) { margin: 0 10px 10px 0; }
+    .footer .sixteen .portfolio-widget-item:nth-child(3n),
+    .portfolio-widget-item:nth-child(4n),
+    .footer .one-third .portfolio-widget-item:nth-child(4n),
+    .footer .eight .portfolio-widget-item:nth-child(4n),
+    .footer .sixteen .portfolio-widget-item:nth-child(4n),
+    .portfolio-widget-item:nth-child(6n),
+    .footer .one-third .portfolio-widget-item:nth-child(6n),
+    .footer .eight .portfolio-widget-item:nth-child(6n),
+    .footer .sixteen .portfolio-widget-item:nth-child(6n),
+    .portfolio-widget-item:nth-child(12n),
+    .footer .one-third .portfolio-widget-item:nth-child(12n),
+    .footer .eight .portfolio-widget-item:nth-child(12n),
+    .footer .sixteen .portfolio-widget-item:nth-child(12n) { margin: 0 10px 10px 0; } /* reset */
 
     .portfolio-widget-item:nth-child(5n),
     .footer .one-third .portfolio-widget-item:nth-child(5n),
@@ -704,7 +716,16 @@
     .portfolio-widget-item:nth-child(3n),
     .footer .one-third .portfolio-widget-item:nth-child(3n),
     .footer .eight .portfolio-widget-item:nth-child(3n),
-    .footer .sixteen .portfolio-widget-item:nth-child(3n) { margin: 0 12px 12px 0; }
+    .footer .sixteen .portfolio-widget-item:nth-child(3n),
+    .portfolio-widget-item:nth-child(6n),
+    .footer .one-third .portfolio-widget-item:nth-child(6n),
+    .footer .eight .portfolio-widget-item:nth-child(6n),
+    .footer .sixteen .portfolio-widget-item:nth-child(6n),
+    .portfolio-widget-item:nth-child(12n),
+    .footer .one-third .portfolio-widget-item:nth-child(12n),
+    .footer .eight .portfolio-widget-item:nth-child(12n),
+    .footer .sixteen .portfolio-widget-item:nth-child(12n) { margin: 0 12px 12px 0; } /* reset */
+
 
     .portfolio-widget-item:nth-child(4n),
     .footer .one-third .portfolio-widget-item:nth-child(4n),
