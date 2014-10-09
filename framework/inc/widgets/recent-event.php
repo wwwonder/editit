@@ -70,14 +70,7 @@ class Widget_Recent_Event extends WP_Widget {
     if( $th_query->have_posts() ):  while ($th_query->have_posts()) : $th_query->the_post(); ?>
 
       <li>
-        <?php if(rwmb_meta('editit_selecteventlinktosinglepage')): ?>
-          <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?></a>
-        <?php else: ?>
-          <?php the_title(); ?>
-        <?php endif; ?>
-
         <?php if($instance['show_date'] != "no" ) : ?>
-          <br>
           <time datetime="<?php
             echo date('Y-m-d', strtotime(rwmb_meta( 'editit_dateeventstartdate' )));
             if( rwmb_meta('editit_dateeventstartdate') != rwmb_meta( 'editit_dateeventenddate' ) ){
@@ -99,8 +92,13 @@ class Widget_Recent_Event extends WP_Widget {
 
             <?php endif; ?>
           </time>
+          <br>
         <?php endif; ?>
-
+        <?php if(rwmb_meta('editit_selecteventlinktosinglepage')): ?>
+          <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?></a>
+        <?php else: ?>
+          <?php the_title(); ?>
+        <?php endif; ?>
       </li>
 
     <?php endwhile; endif;

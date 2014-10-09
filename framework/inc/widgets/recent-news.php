@@ -63,10 +63,10 @@ class Widget_Recent_News extends WP_Widget {
     if( $th_query->have_posts() ):  while ($th_query->have_posts()) : $th_query->the_post(); ?>
 
       <li>
-        <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?></a>
         <?php if($instance['show_date'] != "no" ) : ?>
-        <br><time datetime="<?php the_time('Y-m-d')?>" title="<?php the_time('Y-m-d')?>"><?php the_time(get_option('date_format')); ?></time>
+        <time datetime="<?php the_time('Y-m-d')?>" title="<?php the_time('Y-m-d')?>"><?php the_time(get_option('date_format')); ?></time><br>
         <?php endif; ?>
+        <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?></a>
       </li>
 
     <?php endwhile; endif;
