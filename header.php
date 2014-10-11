@@ -21,7 +21,7 @@
 
 <!-- basic setting -->
 <meta charset="<?php bloginfo('charset'); ?>">
-<title><?php bloginfo('name'); ?> <?php wp_title(' - ', true, 'left'); ?></title>
+<title><?php bloginfo('name'); ?> <?php if( is_front_page() && get_bloginfo( 'description' )){ echo '| ';bloginfo( 'description' ); }?><?php wp_title(' - ', true, 'left'); ?></title>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

@@ -1436,7 +1436,7 @@ $of_options[] = array(
                   "name"      => __('Enable Author Info on Blog Single', 'editit'),
                   "desc"      => '',
                   "id"        => "switch_postauthorinfo",
-                  "std"       => 1,
+                  "std"       => 0,
                   "type"      => "switch"
                 );
 
@@ -1504,19 +1504,6 @@ $of_options[] = array(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------------------------------------ */
 /* 07.News
 /* ------------------------------------------------------------------------ */
@@ -1558,7 +1545,7 @@ $of_options[] = array(
                   "name"      => __('Enable Author Info on News Single', 'editit'),
                   "desc"      => "",
                   "id"        => "switch_newsauthorinfo",
-                  "std"       => 1,
+                  "std"       => 0,
                   "type"      => "switch"
                 ); 
 
@@ -2170,7 +2157,7 @@ $of_options[] = array(
                   "name"      => __('Enable Widgetized Footer', 'editit'),
                   "desc"      => "",
                   "id"        => "switch_footerwidgets",
-                  "std"       => 1,
+                  "std"       => 0,
                   "type"      => "switch"
                 ); 
 
