@@ -131,7 +131,7 @@
       height: 346px !important;
     }
 
-    .member-item.one-third.showmemberexcerpt { height: 416px; }
+    .member-item.one-third.showmemberexcerpt { height: 416px !important; }
 
     .member-item.one-third .member-thumbnail .pic {
       width: 236px !important;
@@ -149,7 +149,7 @@
       height: 858px !important;
     }
 
-    .member-item.sixteen.showmemberexcerpt { height: 928px; }
+    .member-item.sixteen.showmemberexcerpt { height: 928px !important; }
 
     .member-item.sixteen .member-thumbnail .pic {
       width: 748px !important;
