@@ -127,6 +127,8 @@
               border-top: none;
             }
 
+            .header .navigation .sub-menu li:first-child ul { top: 0px !important; }
+
           .header .navigation .sub-menu li { height: auto !important; }
 
           .header .navigation .sub-menu > li:first-child > a { border-top: none !important; }
