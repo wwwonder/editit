@@ -2138,7 +2138,10 @@ ul.social-icons { margin: 0; }
       }
 
       .widget_side_nav ul li.current_page_item a,
-      .widget_side_nav ul li.current_page_item a:hover { color: #fff !important; }
+      .widget_side_nav ul li.current_page_item a:hover {
+        color: #fff !important;
+        border: none;
+      }
 
       .widget_side_nav ul li.current_page_item a span.icon,
       .widget_side_nav ul li.current_page_item a:hover span.icon { color: #fff !important; }
