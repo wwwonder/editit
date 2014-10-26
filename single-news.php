@@ -78,46 +78,55 @@
 
     <?php if( $smof_data['switch_newsrelatedposts'] ) : ?>
 
+      <?php
+        $terms = get_the_terms( $post->ID , 'news_tag', 'string');
+        if($terms) :
+      ?>
+
       <div id="related-posts" class="related-posts">
-
         <h3 class="headline"><span><?php _e('Related News', 'editit'); ?></span></h3>
-            
         <ul>
-          <?php
 
-            $terms = get_the_terms( $post->ID , 'news_tag', 'string');
-            $term_ids = array_values( wp_list_pluck( $terms,'term_id' ) );
-            $my_query = new WP_Query( array(
-                                        'post_type'           => 'news',
-                                        'tax_query'           => array(
-                                                                   array(
-                                                                     'taxonomy' => 'news_tag',
-                                                                     'field'    => 'id',
-                                                                     'terms'    => $term_ids,
-                                                                     'operator' => 'IN'
-                                                                   )
-                                                                 ),
-                                        'posts_per_page'      => 4,
-                                        'ignore_sticky_posts' => 1,
-                                        'orderby'             => 'date',
-                                        'post__not_in'        => array($post->ID)
-                                      )
-                        );
+        <?php
 
-            if( $my_query->have_posts() ) :
-              while ($my_query->have_posts()) : $my_query->the_post(); ?>
-                <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?> <span>(<?php the_time(get_option('date_format')); ?>)</span></a></li>
-                <?php
-              endwhile;
-              wp_reset_query();
-            endif;
+          $term_ids = array_values( wp_list_pluck( $terms,'term_id' ) );
+          $my_query = new WP_Query( array(
+                                      'post_type'           => 'news',
+                                      'tax_query'           => array(
+                                                                 array(
+                                                                   'taxonomy' => 'news_tag',
+                                                                   'field'    => 'id',
+                                                                   'terms'    => $term_ids,
+                                                                   'operator' => 'IN'
+                                                                 )
+                                                               ),
+                                      'posts_per_page'      => 4,
+                                      'ignore_sticky_posts' => 1,
+                                      'orderby'             => 'date',
+                                      'post__not_in'        => array($post->ID)
+                                    )
+                      );
 
-          ?>
+          if( $my_query->have_posts() ) :
+            while ($my_query->have_posts()) : $my_query->the_post();
+
+        ?>
+          <li><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( esc_attr__('Permalink to %s', 'editit'), the_title_attribute('echo=0') ); ?>"><?php the_title(); ?> <span>(<?php the_time(get_option('date_format')); ?>)</span></a></li>
+        <?php
+
+            endwhile;
+            wp_reset_query();
+          endif;
+
+        ?>
+
         </ul>
       </div><!-- end of .related-posts -->
 
+      <?php endif; ?>
+
     <?php endif; ?>
-    
+
     <div id="comments" class="comments"><?php comments_template(); ?></div>
     
     <div class="post-navigation">

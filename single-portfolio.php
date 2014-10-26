@@ -34,13 +34,19 @@
     <?php if( $smof_data['switch_portfoliorelatedportfolio'] ) : // Show related Posts Portfolio specific ?>
 
     <div class="clear"></div>
-    <div id="portfolio-related-post" class="portfolio-related-post clearfix">
-      <h3 class="headline sixteen columns"><span><?php if($smof_data['text_portfoliorelatedportfoliolabel']){ echo $smof_data['text_portfoliorelatedportfoliolabel']; }else{ _e('Related Portfolio', 'editit'); } ?></span></h3>
 
       <?php
         $terms = get_the_terms( $post->ID , 'portfolio_category');
+        if($terms) :
+      ?>
+
+    <div id="portfolio-related-post" class="portfolio-related-post clearfix">
+      <h3 class="headline sixteen columns"><span><?php if($smof_data['text_portfoliorelatedportfoliolabel']){ echo $smof_data['text_portfoliorelatedportfoliolabel']; }else{ _e('Related Portfolio', 'editit'); } ?></span></h3>
+
+
+      <?php
         $term_ids = array_values( wp_list_pluck( $terms,'term_id' ) );
-        $second_query = new WP_Query( array(
+        $my_query = new WP_Query( array(
                                         'post_type'           => 'portfolio',
                                         'tax_query'           => array(
                                                                    array(
@@ -57,12 +63,12 @@
                                       )
                         );
 
-        if($second_query->have_posts()) :
+        if($my_query->have_posts()) :
 
           $custom_excerpt_length = 15;
           $readmore = false;
 
-            while ($second_query->have_posts() ) : $second_query->the_post();
+            while ($my_query->have_posts() ) : $my_query->the_post();
 
               $terms = get_the_terms( get_the_ID(), 'portfolio_category' );
               $link = '';
@@ -129,11 +135,16 @@
       </article>
 
         <?php endwhile; wp_reset_query(); ?>
-      <?php endif; //end $second_query ?>
+      <?php endif; //end $my_query ?>
 
     </div><!-- end of .portfolio-related-posts -->
 
-    <?php endif; //end related specific ?>
+    <?php
+
+      endif; //end $terms
+      endif; //end related specific
+
+    ?>
 
     <?php endwhile; endif; ?>
 
