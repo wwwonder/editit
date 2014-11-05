@@ -85,7 +85,10 @@
         border-bottom-color: #0074a2;
       }
 
-        .header .navigation ul.menu > li > a { color: #666; }
+        .header .navigation ul.menu > li > a {
+          font-weight: bold;
+          color: #666;
+        }
 
         .header .navigation ul.menu > li:hover > a { color: #333; }
 
@@ -95,7 +98,6 @@
         .header .navigation ul.menu > li.current-menu-ancestor > a,
         .header .navigation ul.menu > li.current-menu-parent > a,
         .header .navigation ul.menu > li.current_page_ancestor > a {
-          font-weight: bold;
           color: #0074a2;
         }
 

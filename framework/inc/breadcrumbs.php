@@ -21,7 +21,7 @@ function editit_breadcrumbs() {
 
   /* === OPTIONS === */
   global $smof_data;
-  $text['home']     = !empty($smof_data['text_home']) ? $smof_data['text_home'] : 'Home'; // text for the 'Home' link
+  $text['home']     = !empty($smof_data['text_hometext']) ? $smof_data['text_hometext'] : 'Home'; // text for the 'Home' link
   $text['category'] = __('Archive by Category "%s"', 'editit'); // text for a category page
   $text['search']   = __('Search results for "&#8220;%s&#8221;"', 'editit'); // text for a search results page
   $text['tag']      = __('Archive by Tagged "%s"', 'editit'); // text for a tag page
