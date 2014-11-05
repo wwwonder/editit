@@ -22,6 +22,6 @@
 ?>
   <?php get_template_part( 'framework/inc/archive/content', get_post_type() ); ?>
 
-</div<!-- end of .page-wrap -->
+</div><!-- end of .page-wrap -->
 
 <?php get_footer(); ?>
