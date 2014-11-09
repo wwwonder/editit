@@ -214,15 +214,19 @@
       height:40px;
       margin:-10px 0px -10px 0px;
       border-left: 1px solid #ddd;
+      font-size: 14px;
     }
     
     
-    .accordion .accordion-title i { margin:0 8px 0 0px; }
+    .accordion .accordion-title i {
+      margin:0 8px 0 0px;
+      font-size: 14px;
+    }
     
     .accordion .accordion-title span:before {
       position: absolute;
       top: 15px;
-      right: 15px;
+      right: 14px;
       content: "\f067";
     }
 
@@ -280,7 +284,8 @@
 
         .tab a i{
           opacity: 0.6;
-          margin:-1px 2px 0 2px;
+          margin:-1px 8px 0 2px;
+          font-size: 14px;
         }
 
       .tab a.selected {
