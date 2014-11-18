@@ -69,6 +69,25 @@ Template Name: Event
 
       );
 
+
+
+      $selectedcategories = rwmb_meta('editit_selecteventcategory');
+      if($selectedcategories && $selectedcategories[0] == 0) {
+        unset($selectedcategories[0]);
+      }
+      if($selectedcategories){
+        $args['tax_query'][] = array(
+                                 'taxonomy'  => 'event_category',
+                                 'field'     => 'ID',
+                                 'terms'     => $selectedcategories
+                               );
+      }
+
+
+
+
+
+
       $bu_query = $wp_query;
       $wp_query = null;
       $wp_query = new WP_Query($args);

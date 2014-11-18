@@ -280,6 +280,7 @@
       .tab a:hover{
         color:#666666;
         background: #fff;
+        text-decoration: none;
       }
 
         .tab a i{
@@ -386,6 +387,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover {
   border: 1px solid #ddd;
   background-color: #f3f3f3;
+  text-decoration: none;
 }
 
   a.button.small,

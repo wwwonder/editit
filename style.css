@@ -234,11 +234,11 @@ a:visited {
 a:hover,
 a:focus {
   color: #666;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
-/* -- Transisiton for Links -- */
+/* -- Transititon for Links -- */
 a {
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -693,6 +693,7 @@ ul.social-icons { margin: 0; }
 
             .post-content-footer .post-meta .post-tags a:hover {
               color: #fff;
+              text-decoration: none;
             }
 
 
@@ -942,7 +943,10 @@ ul.social-icons { margin: 0; }
     color: #a8a8a8 !important;
   }
 
-  .pagination a:hover { color: #fff !important; }
+  .pagination a:hover {
+    color: #fff !important;
+    text-decoration: none;
+  }
 
   .pagination span.current {
     background-color: #333;
@@ -1120,7 +1124,10 @@ ul.social-icons { margin: 0; }
                 border-radius: 2px 0 0 2px;
       }
 
-      .categories ul li a:hover { background-color: #f3f3f3; }
+      .categories ul li a:hover {
+        background-color: #f3f3f3;
+        text-decoration: none;
+      }
 
       .categories ul li a.active { color: #FFF; }
 
@@ -2240,7 +2247,10 @@ ul.social-icons { margin: 0; }
           border-radius: 2px;
 }
 
-.widget_tag_cloud a:hover { color: #fff !important; }
+.widget_tag_cloud a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
 
 
 /* Search Widget /--------------------------------------------------------- */

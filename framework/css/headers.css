@@ -29,6 +29,10 @@
       color: #000;
     }
 
+    .header .logo a.logo-text:hover {
+      text-decoration: none;
+    }
+
     .header .logo img { 
       max-width: 100%;
       height: auto;
@@ -64,6 +68,8 @@
           display: block;
           float: left;
         }
+
+        .header .navigation ul li a:hover { text-decoration: none; }
 
       .header .navigation ul.menu { margin-bottom: 0; }
 

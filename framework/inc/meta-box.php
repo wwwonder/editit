@@ -413,7 +413,7 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}textmenumaxlengthofexcerpt",
         'desc'     => '',
         'type'     => 'text',
-        'std'      => '50',
+        'std'      => '120',
         'clone'    => false
       )
 
@@ -514,7 +514,7 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}texteventmaxlengthofexcerpt",
         'desc'     => '',
         'type'     => 'text',
-        'std'      => '50',
+        'std'      => '120',
         'clone'    => false
       )
 
@@ -911,6 +911,12 @@ function editit_register_meta_boxes(){
     'context'       => 'normal',
     'priority'      => 'high',
     'fields'        => array(
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'You can set the Portfolio Information Label in [Appearance > Theme Options > Portfolio].', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       array(
         'name'     => $smof_data['text_portfolioinformationlabel1'],

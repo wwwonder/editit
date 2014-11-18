@@ -468,19 +468,6 @@ function editit_show_event_calendar() {
   $year_month_firstday = $year . '-' . $month . '-01';
   $year_month_lastday = date("Y-m-t", strtotime($year_month_firstday));
 
-  //Set Category Query
-  $selectedcategories = rwmb_meta('editit_eventcategory');
-  if($selectedcategories && $selectedcategories[0] == 0) {
-    unset($selectedcategories[0]);
-  }
-  if($selectedcategories){
-    $args['tax_query'][] = array(
-      'taxonomy'  => 'event_category',
-      'field'     => 'ID',
-      'terms'     => $selectedcategories
-    );
-  }
-
   //Query Set
   $args = array(
     'post_type'    => 'event',
@@ -501,6 +488,22 @@ function editit_show_event_calendar() {
                          )
                        )
   );
+
+  //Set Category Query
+  $selectedcategories = rwmb_meta('editit_selecteventcategory');
+  if($selectedcategories && $selectedcategories[0] == 0) {
+    unset($selectedcategories[0]);
+  }
+  if($selectedcategories){
+        $args['tax_query'][] = array(
+                                 'taxonomy'  => 'event_category',
+                                 'field'     => 'ID',
+                                 'terms'     => $selectedcategories
+                               );
+  }
+
+
+
 
   $wp_query = new WP_Query($args);
 

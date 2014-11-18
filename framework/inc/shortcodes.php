@@ -914,7 +914,7 @@ function editit_recent_posts( $atts, $content = null) {
             'ignore_sticky_posts'  => 1
           );
 
-  if($category && $category != "") {
+  if($category) {
 
     $args['tax_query'][] = array(
                              'taxonomy'  => 'category',
@@ -1013,7 +1013,7 @@ function editit_recent_news( $atts, $content = null) {
           );
 
 
-  if($category && $category != "") {
+  if($category) {
 
     $args['tax_query'][] = array(
                              'taxonomy'  => 'news_category',
@@ -1109,7 +1109,7 @@ function editit_recent_portfolio( $atts, $content = null) {
             'ignore_sticky_posts'  => 1
           );
 
-  if($category && $category != "") {
+  if($category) {
 
     $args['tax_query'][] = array(
                              'taxonomy'  => 'portfolio_category',
@@ -1224,6 +1224,9 @@ function editit_recent_event( $atts, $content = null) {
     'post_status'         => 'publish',
     'posts_per_page'      => $number,
     'ignore_sticky_posts' => 1,
+    'orderby'             => 'meta_value',
+    'meta_key'            => 'editit_dateeventstartdate',
+    'order'               => 'ASC',
     'meta_query'          => array(
                                array(  'key'     =>  'editit_dateeventenddate',
                                        'value'   =>  $today_date,
@@ -1231,10 +1234,10 @@ function editit_recent_event( $atts, $content = null) {
                                        'type'    =>  'DATE'
                                )
                              )
-
   );
 
-  if($category && $category != 0) {
+
+  if($category) {
 
       $args['tax_query'][] = array(
                                'taxonomy'  => 'event_category',
