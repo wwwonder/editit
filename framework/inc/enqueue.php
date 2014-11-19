@@ -76,12 +76,6 @@ function editit_styles_basic() {
   wp_register_style( 'skeleton', get_template_directory_uri() . '/framework/css/skeleton.css', array(), '1.2', 'all' );
   wp_register_style( 'responsive', get_template_directory_uri() . '/framework/css/responsive.css', array(), '1.0.0', 'all' );
 
-  if($smof_data['color_theme'] && file_exists(get_template_directory() . '/framework/css/colorthemes/' . $smof_data['color_theme'] . '.css')){
-    wp_register_style( 'colortheme', get_template_directory_uri() . '/framework/css/colorthemes/' . $smof_data['color_theme'] . '.css', array(), '1.0.0', 'all' );
-  }else{
-    wp_register_style( 'colortheme', get_template_directory_uri() . '/framework/css/colorthemes/default.css', array(), '1.0.0', 'all' );
-  }
-
 
   /* ------------------------------------------------------------------------ */
   /* Enqueue Stylesheets */
@@ -94,7 +88,6 @@ function editit_styles_basic() {
   wp_enqueue_style( 'prettyPhoto' );                                             // prettyPhoto (Blog + Portfolio + News + Menu)
   wp_enqueue_style( 'icon' );                                                    // Font Awesome
   wp_enqueue_style( 'stylesheet', get_stylesheet_uri(), array(), '1', 'all' );   // Main Stylesheet
-  wp_enqueue_style( 'colortheme' );                                              // Color Theme
 
   if($smof_data['switch_responsive']) {
     wp_enqueue_style( 'skeleton' );                                              // Skelton

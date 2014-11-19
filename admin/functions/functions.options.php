@@ -372,40 +372,6 @@ $of_options[] = array(
                 );
 
 
-
-/* ------------------------------------------------------------------------ */
-/* Color Themes
-/* ------------------------------------------------------------------------ */
-
-$of_options[] = array(
-                  "name"      => "Color Themes",
-                  "type"      => "heading",
-                  "icon"      => "art"
-                );
-
-$of_options[] = array(
-                  "name"      => "",
-                  "desc"      => "",
-                  "id"        => "general_heading",
-                  "std"       => __('Please choose the Theme Color', 'editit'),
-                  "icon"      => false,
-                  "type"      => "info"
-                );
-
-$of_options[] = array(
-                  "name"      => "",
-                  "desc"      => "",
-                  "id"        => "color_theme",
-                  "std"       => "default",
-                  "type"      => "images",
-                  "options"   => array(
-                                   "default"    => get_bloginfo('template_directory')."/framework/images/colorthemes/default.gif",
-                                   "mono"       => get_bloginfo('template_directory')."/framework/images/colorthemes/mono.gif"
-                                 )
-                );
-
-
-
 /* ------------------------------------------------------------------------ */
 /* Custom Style
 /* ------------------------------------------------------------------------ */
