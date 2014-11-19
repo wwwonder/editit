@@ -29,6 +29,11 @@
 <!-- devices setting -->
 <?php if($smof_data['switch_mobilezoom'] == 0) : ?><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><?php endif; ?>
 
+<!-- description & Keywords -->
+<?php if($smof_data['textarea_metadescription'] != "") : ?><meta name="description" content="<?php echo $smof_data['textarea_metadescription']; ?>" /><?php endif; ?>
+
+<?php if($smof_data['textarea_metakeywords'] != "") : ?><meta name="keywords" content="<?php echo $smof_data['textarea_metakeywords']; ?>" /><?php endif; ?>
+
 
 <!-- favicon -->
 <?php if($smof_data['media_favicon'] != "") : ?><link rel="shortcut icon" href="<?php echo $smof_data['media_favicon']; ?>"><?php endif; ?>
