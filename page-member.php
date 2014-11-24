@@ -84,24 +84,38 @@ Template Name: Member
     $readmore = false;
     if( rwmb_meta('editit_selectshowmemberexcerpt') ){ $showmemberexcerpt = true; }else{ $showmemberexcerpt = false; }
 
-    while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
+    while ( $wp_query->have_posts() ) : $wp_query->the_post();
+
+      $link = '';
+
+      if ( rwmb_meta( 'editit_selectmemberlinktosinglepage' )){
+        $link = '<a href="' . get_permalink() . '" title="' . get_the_title() . '" class="link">';
+      }else{
+        $link = '<a href="' . wp_get_attachment_url( get_post_thumbnail_id() ) . '" title="' . get_the_title() . '" class="lightbox prettyPhoto" rel="prettyPhoto">';
+      }
+
+?>
 
     <article class='member-item <?php if( $showmemberexcerpt ){ echo 'showmemberexcerpt ';} ?><?php echo $column; ?> columns'>
-      <?php if ( has_post_thumbnail()): ?> 
+
       <div class='member-thumbnail'>
         <span class='pic'>
-        <?php if(rwmb_meta('editit_selectmemberlinktosinglepage')): ?>
-          <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="link">
-           <?php the_post_thumbnail('square-full'); ?>
-          </a>
-        <?php else: ?>
-          <a href="<?php echo wp_get_attachment_url( get_post_thumbnail_id() ) ?>" class="lightbox prettyPhoto" rel="prettyPhoto" title="<?php the_title() ?>">
-          <?php the_post_thumbnail('square-full'); ?>
-          </a>
-        <?php endif; ?>
+
+          <?php if(has_post_thumbnail()): ?>
+
+            <?php echo $link; ?>
+            <?php the_post_thumbnail('square-full'); ?>
+            </a>
+
+          <?php else: ?>
+
+            <img src="<?php bloginfo('template_directory'); ?>/framework/images/square-noimage.png">
+
+          <?php endif; ?>
+
         </span>
       </div>
-      <?php endif; ?>
+
 
       <div class="member-content">
         <div class="member-content-header">

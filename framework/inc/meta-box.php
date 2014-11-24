@@ -747,6 +747,11 @@ function editit_register_meta_boxes(){
     'priority'      => 'high',
     'fields'        => array(
 
+      array(
+        'type' => 'heading',
+        'name' => __( '[ Featured Image ] is displayed on the portfolio page.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       array(
         'name'     => __( 'Link to Single', 'editit' ),
@@ -774,7 +779,6 @@ function editit_register_meta_boxes(){
 
     )
   );
-
 
 
   /* Portfolio Single Layout Setting */
@@ -847,20 +851,7 @@ function editit_register_meta_boxes(){
         ),
         'multiple' => false,
         'std'      => 'image'
-      )
-    )
-  );
-
-
-
-  /* Portfolio Images */
-  $meta_boxes[] = array(
-    'id'            => 'portfolioimages',
-    'title'         => __( 'Portfolio Images', 'editit' ),
-    'pages'         => array('portfolio'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
+      ),
 
       // IMAGE ADVANCED (WP 3.5+)
       array(
@@ -868,20 +859,7 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}imagegallery",
         'type'     => 'image_advanced',
         'max_file_uploads'  => 10
-      )
-    )
-  );
-
-
-
-  /* Portfolio Video */
-  $meta_boxes[] = array(
-    'id'            => 'portfoliovideo',
-    'title'         => __( 'Portfolio Video', 'editit' ),
-    'pages'         => array('portfolio'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
+      ),
 
       // Audio Embed
       array(
@@ -892,8 +870,13 @@ function editit_register_meta_boxes(){
         'cols'     => 20,
         'rows'     => 3
       )
+
     )
   );
+
+
+
+
 
 
 
@@ -914,7 +897,7 @@ function editit_register_meta_boxes(){
 
       array(
         'type' => 'heading',
-        'name' => __( 'You can set the Portfolio Information Label in [Appearance > Theme Options > Portfolio].', 'editit' ),
+        'name' => __( 'You can set the Portfolio Information Label in [ Appearance > Theme Options > Portfolio ].', 'editit' ),
         'id'   => 'fake_id'
       ),
 
@@ -1063,6 +1046,11 @@ function editit_register_meta_boxes(){
     'priority'      => 'high',
     'fields'        => array(
 
+      array(
+        'type' => 'heading',
+        'name' => __( '[ Featured Image ] is displayed on the menu page.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       array(
         'name'     => __( 'Link to Single', 'editit' ),
@@ -1164,20 +1152,7 @@ function editit_register_meta_boxes(){
         ),
         'multiple' => false,
         'std'      => 'image'
-      )
-    )
-  );
-
-
-
-  /* Menu Images */
-  $meta_boxes[] = array(
-    'id'            => 'menuimages',
-    'title'         => __( 'Menu Images', 'editit' ),
-    'pages'         => array('menu'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
+      ),
 
       // IMAGE ADVANCED (WP 3.5+)
       array(
@@ -1185,22 +1160,9 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}imagegallery",
         'type'     => 'image_advanced',
         'max_file_uploads'  => 10
-      )
-    )
-  );
+      ),
 
-
-
-  /* Menu Video */
-  $meta_boxes[] = array(
-    'id'            => 'menuvideo',
-    'title'         => __( 'Menu Video', 'editit' ),
-    'pages'         => array('menu'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
-
-      // Audio Embed
+      // Video Embed
       array(
         'name'     => __( 'Video Embed', 'editit' ),
         'desc'     => __( 'Enter Video Embed Code', 'editit' ),
@@ -1209,9 +1171,9 @@ function editit_register_meta_boxes(){
         'cols'     => 20,
         'rows'     => 3
       )
+
     )
   );
-
 
 
 
@@ -1235,6 +1197,12 @@ function editit_register_meta_boxes(){
     'context'       => 'normal',
     'priority'      => 'high',
     'fields'        => array(
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'You can set the Menu Information Label in [ Appearance > Theme Options > Menu ].', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       // Menu Information
       array(
@@ -1345,6 +1313,11 @@ function editit_register_meta_boxes(){
     'priority'      => 'high',
     'fields'        => array(
 
+      array(
+        'type' => 'heading',
+        'name' => __( '[ Featured Image ] is displayed on the event page.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       array(
         'name'     => __( 'Link to Single', 'editit' ),
@@ -1445,20 +1418,7 @@ function editit_register_meta_boxes(){
         ),
         'multiple'    => false,
         'std'         => 'image'
-      )
-    )
-  );
-
-
-
-  /* Event Images */
-  $meta_boxes[] = array(
-    'id'            => 'eventimages',
-    'title'         => __( 'Event Images', 'editit' ),
-    'pages'         => array('event'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
+      ),
 
       // IMAGE ADVANCED (WP 3.5+)
       array(
@@ -1466,22 +1426,9 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}imagegallery",
         'type'     => 'image_advanced',
         'max_file_uploads'  => 10
-      )
-    )
-  );
+      ),
 
-
-
-  /* Event Video */
-  $meta_boxes[] = array(
-    'id'            => 'eventvideo',
-    'title'         => __( 'Event Video', 'editit' ),
-    'pages'         => array('event'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
-
-      // Audio Embed
+      // Video Embed
       array(
         'name'     => __( 'Video Embed', 'editit' ),
         'desc'     => __( 'Enter Video Embed Code', 'editit' ),
@@ -1490,8 +1437,11 @@ function editit_register_meta_boxes(){
         'cols'     => 20,
         'rows'     => 3
       )
+
     )
   );
+
+
 
   if($smof_data['text_eventinformationlabel1']){$field_type1 = "text";}else{$field_type1 = "hidden";}
   if($smof_data['text_eventinformationlabel2']){$field_type2 = "text";}else{$field_type2 = "hidden";}
@@ -1549,6 +1499,13 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}urleventlinkurl",
         'type'     => 'url',
         'std'      => '',
+      ),
+
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'You can set the Event Information Label in [ Appearance > Theme Options > Event ].', 'editit' ),
+        'id'   => 'fake_id'
       ),
 
       // Event Information
@@ -1652,6 +1609,39 @@ function editit_register_meta_boxes(){
   /* ----------------------------------------------------- */
 
 
+
+  /* Member Page Setting */
+  $meta_boxes[] = array(
+    'id'            => 'memberpagesettings',
+    'title'         => __( 'Member Page Setting', 'editit' ),
+    'pages'         => array('member'),
+    'context'       => 'normal',
+    'priority'      => 'high',
+    'fields'        => array(
+
+      array(
+        'type' => 'heading',
+        'name' => __( '[ Featured Image ] is displayed on the member page.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
+
+      array(
+        'name'     => __( 'Link to Single', 'editit' ),
+        'id'       => "{$prefix}selectmemberlinktosinglepage",
+        'type'     => 'select',
+        'options'  => array(
+                        0 => __( 'No', 'editit' ),
+                        1 => __( 'Yes', 'editit' )
+                      ),
+        'multiple' => false,
+        'std'      => 1
+      ),
+
+    )
+  );
+
+
+
   /* Member Layout Setting */
   $meta_boxes[] = array(
     'id'            => 'memberlayoutsetting',
@@ -1685,28 +1675,8 @@ function editit_register_meta_boxes(){
                       ),
         'multiple' => false,
         'std'      => 1
-      ),
-
-      array(
-        'name'     => __( 'Link to Single', 'editit' ),
-        'id'       => "{$prefix}selectmemberlinktosinglepage",
-        'type'     => 'select',
-        'options'  => array(
-                        0 => __( 'No', 'editit' ),
-                        1 => __( 'Yes', 'editit' )
-                      ),
-        'multiple' => false,
-        'std'      => 1
-      ),
-
-      array(
-        'name'     => __( 'Member Position', 'editit' ),
-        'id'       => "{$prefix}textmemberpositiontext",
-        'desc'     => '',
-        'type'     => 'text',
-        'std'      => '',
-        'clone'    => false
       )
+
     )
   );
 
@@ -1732,20 +1702,7 @@ function editit_register_meta_boxes(){
         ),
         'multiple' => false,
         'std'      => 'image'
-      )
-    )
-  );
-
-
-
-  /* Member Images */
-  $meta_boxes[] = array(
-    'id'            => 'memberimages',
-    'title'         => __( 'Member Images', 'editit' ),
-    'pages'         => array('member'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
+      ),
 
       // IMAGE ADVANCED (WP 3.5+)
       array(
@@ -1753,22 +1710,9 @@ function editit_register_meta_boxes(){
         'id'       => "{$prefix}imagegallery",
         'type'     => 'image_advanced',
         'max_file_uploads'  => 10
-      )
-    )
-  );
+      ),
 
-
-
-  /* Member Video */
-  $meta_boxes[] = array(
-    'id'            => 'membervideo',
-    'title'         => __( 'Member Video', 'editit' ),
-    'pages'         => array('member'),
-    'context'       => 'normal',
-    'priority'      => 'high',
-    'fields'        => array(
-
-      // Audio Embed
+      // Video Embed
       array(
         'name'     => __( 'Video Embed', 'editit' ),
         'desc'     => __( 'Enter Video Embed Code', 'editit' ),
@@ -1777,8 +1721,13 @@ function editit_register_meta_boxes(){
         'cols'     => 20,
         'rows'     => 3
       )
+
     )
   );
+
+
+
+
 
 
   /* Member Social Information */
@@ -1868,6 +1817,23 @@ function editit_register_meta_boxes(){
     'context'       => 'normal',
     'priority'      => 'high',
     'fields'        => array(
+
+
+      array(
+        'name'     => __( 'Member Position', 'editit' ),
+        'id'       => "{$prefix}textmemberpositiontext",
+        'desc'     => '',
+        'type'     => 'text',
+        'std'      => '',
+        'clone'    => false
+      ),
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'You can set the Member Information Label in [ Appearance > Theme Options > Member ].', 'editit' ),
+        'id'   => 'fake_id'
+      ),
+
 
       // Member Information
       array(

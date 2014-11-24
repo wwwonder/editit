@@ -134,17 +134,27 @@ Template Name: Portfolio
 
       <article class='<?php if($terms) : foreach ($terms as $term) { echo 'term-'.$term->slug.' '; } endif; ?>portfolio-item <?php if( $showportfoliotitle ){ echo 'showportfoliotitle ';} ?><?php echo $column; ?> columns'>
 
-        <?php if ( has_post_thumbnail()): ?>
+
         <div class='portfolio-thumbnail'>
           <span class='pic'>
-            <?php echo $link; ?>
-            <?php the_post_thumbnail('portfolio'); ?>
-            <?php if( $link != '' ): ?>
-            </a>
+
+            <?php if(has_post_thumbnail()): ?>
+
+              <?php echo $link; ?>
+              <?php the_post_thumbnail('portfolio'); ?>
+              <?php if( $link != '' ): ?>
+              </a>
+              <?php endif; ?>
+
+            <?php else: ?>
+
+              <img src="<?php bloginfo('template_directory'); ?>/framework/images/portfolio-noimage.png">
+
             <?php endif; ?>
+
           </span>
         </div>
-        <?php endif; ?>
+
 
         <?php if( $showportfoliotitle ) : ?>
         <div class="portfolio-content">
