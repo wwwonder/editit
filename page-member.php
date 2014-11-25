@@ -104,7 +104,7 @@ Template Name: Member
           <?php if(has_post_thumbnail()): ?>
 
             <?php echo $link; ?>
-            <?php the_post_thumbnail('square-full'); ?>
+            <?php the_post_thumbnail('square'); ?>
             </a>
 
           <?php else: ?>

@@ -80,16 +80,16 @@ if ( function_exists( 'add_image_size' ) ) add_theme_support( 'post-thumbnails' 
 if ( function_exists( 'add_image_size' ) ) {
 
   // Reserved Image Size Names : thumb, thumbnail, medium, large, post-thumbnail
-  add_image_size( 'standard-full', 940, 400, true );    // for Blog Full No Sidebar
-  add_image_size( 'standard', 700, 300, true );         // for Blog Full With Sidebar
-  add_image_size( 'half-full', 470, 300, true );        // for Blog Medium No Sidebar
-  add_image_size( 'half', 350, 220, true );             // for Blog Medium With Sidebar
-  add_image_size( 'portfolio', 940, 684, true );        // used for portfolio : 940x684,460x335,300x218,220x160
-  add_image_size( 'portfolio-full', 940, 475, true );   // used for portfolio single full
-  add_image_size( 'portfolio-medium', 580, 350, true ); // used for portfolio single medium
-  add_image_size( 'square-full', 940, 940, true );      // used for menu
-  add_image_size( 'square', 460, 460, true );           // used for menu
-  add_image_size( 'square-mini', 70, 70, true );        // used for widget thumbnail  (portfolio 63px,)
+  add_image_size( 'standard-full', 940, 400, true );    // for Blog Full No Sidebar                                2.35:1.00   ◎
+  add_image_size( 'standard', 700, 300, true );         // for Blog Full With Sidebar                              2.33:1.00   ◎
+  add_image_size( 'half-full', 470, 300, true );        // for Blog Medium No Sidebar                              1.57:1.00   ◎
+  add_image_size( 'half', 350, 220, true );             // for Blog Medium With Sidebar                            1.59:1.00   ◎
+  add_image_size( 'portfolio', 940, 684, true );        // used for portfolio : 940x684,460x335,300x218,220x160    1.37:1.00   ◎
+  add_image_size( 'portfolio-full', 940, 600, true );   // used for portfolio single full                          1.57:1.00   ◎
+  add_image_size( 'portfolio-medium', 580, 380, true ); // used for portfolio single medium                        1.53:1.00   ◎
+  add_image_size( 'square-full', 940, 940, true );      // used for menu                                                       ◎
+  add_image_size( 'square', 460, 460, true );           // used for menu                                                       ◎
+  add_image_size( 'square-mini', 70, 70, true );        // used for widget thumbnail  (portfolio 63px,)                        ◎
 
 }
 
@@ -164,6 +164,19 @@ function editit_user_contactmethods($user_contactmethods){
   return $user_contactmethods;
 }
 add_filter('user_contactmethods', 'editit_user_contactmethods');
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

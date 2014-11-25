@@ -840,6 +840,12 @@ function editit_register_meta_boxes(){
     'priority'      => 'high',
     'fields'        => array(
 
+      array(
+        'type' => 'heading',
+        'name' => __( 'When [ Gallery Image ] or [ Video Embed ] are not set, featured image is displayed in original aspect ratio.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
+
       // SELECT BOX
       array(
         'name'     => __( 'Portfolio Media', 'editit' ),
@@ -1141,6 +1147,12 @@ function editit_register_meta_boxes(){
     'priority'      => 'high',
     'fields'        => array(
 
+      array(
+        'type' => 'heading',
+        'name' => __( 'When [ Gallery Image ] or [ Video Embed ] are not set, featured image is displayed in original aspect ratio.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
+
       // SELECT BOX
       array(
         'name'     => __( 'Menu Media', 'editit' ),
@@ -1406,6 +1418,12 @@ function editit_register_meta_boxes(){
     'context'       => 'normal',
     'priority'      => 'high',
     'fields'        => array(
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'When [ Gallery Image ] or [ Video Embed ] are not set, featured image is displayed in original aspect ratio.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       // SELECT BOX
       array(
@@ -1690,6 +1708,12 @@ function editit_register_meta_boxes(){
     'context'       => 'normal',
     'priority'      => 'high',
     'fields'        => array(
+
+      array(
+        'type' => 'heading',
+        'name' => __( 'When [ Gallery Image ] or [ Video Embed ] are not set, featured image is displayed in original aspect ratio.', 'editit' ),
+        'id'   => 'fake_id'
+      ),
 
       // SELECT BOX
       array(

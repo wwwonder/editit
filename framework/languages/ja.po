@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EDITIT\n"
-"POT-Creation-Date: 2014-11-21 19:15+0900\n"
-"PO-Revision-Date: 2014-11-21 19:15+0900\n"
+"POT-Creation-Date: 2014-11-25 14:27+0900\n"
+"PO-Revision-Date: 2014-11-25 14:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: editit <info@editit.jp>\n"
 "Language: japanese\n"
@@ -132,7 +132,7 @@ msgid "Email (required)"
 msgstr "メールアドレス(必須)"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/comments.php:75
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:164
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:178
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/author.php:61
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:130
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:137
@@ -203,11 +203,11 @@ msgstr "本日以降のイベントはありません。"
 msgid "All"
 msgstr "すべて"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:111
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:125
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-news.php:68
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-news.php:77
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-portfolio.php:128
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-portfolio.php:156
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-portfolio.php:166
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/search.php:34
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/single-news.php:40
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/single-news.php:114
@@ -257,10 +257,10 @@ msgstr "すべて"
 msgid "Permalink to %s"
 msgstr "%sへのパーマリンク"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:134
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:148
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1824
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1760
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1766
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/sharebox.php:26
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:100
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:107
@@ -268,11 +268,11 @@ msgstr "%sへのパーマリンク"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:140
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:154
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:2322
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1833
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1769
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1775
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/sharebox.php:32
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:106
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:113
@@ -280,10 +280,10 @@ msgstr "Twitter"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:146
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:160
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1842
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1778
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1784
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/sharebox.php:38
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:112
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:119
@@ -291,21 +291,21 @@ msgstr "Facebook"
 msgid "Google+"
 msgstr "Google+"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:152
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:166
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1851
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1787
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1793
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:118
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:125
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-right.php:66
 msgid "Skype"
 msgstr "Skype"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:158
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/page-member.php:172
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/author.php:55
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1807
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1743
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1749
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/sharebox.php:44
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/fullmedia-on-top.php:124
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/member/media-on-left.php:131
@@ -527,15 +527,15 @@ msgstr "背景の設定（ボックスレイアウトを選択時に適用され
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:169
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2061 Rs[.php:2186
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2006
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2131
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2012
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2137
 msgid "Background Color"
 msgstr "背景色"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:177
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2068
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2013
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2019
 msgid "Background Image Upload"
 msgstr "背景画像のアップロード"
 
@@ -546,8 +546,8 @@ msgstr "背景画像をアップロードするかメディアライブラリか
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:186
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2076 Rs[.php:2201
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2021
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2146
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2027
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2152
 msgid "Background Image Repeat"
 msgstr "背景画像の繰り返し"
 
@@ -555,8 +555,8 @@ msgstr "背景画像の繰り返し"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:981
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2081 Rs[.php:2205
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2026
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2150
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2032
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2156
 msgid "Repeat"
 msgstr "繰り返し"
 
@@ -564,8 +564,8 @@ msgstr "繰り返し"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:982
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2080 Rs[.php:2206
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2025
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2151
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2031
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2157
 msgid "No Repeat"
 msgstr "繰り返し無し"
 
@@ -573,8 +573,8 @@ msgstr "繰り返し無し"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:983
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2082 Rs[.php:2207
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2027
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2152
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2033
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2158
 msgid "Repeat Horizontal"
 msgstr "水平方向の繰り返し"
 
@@ -582,37 +582,37 @@ msgstr "水平方向の繰り返し"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:984
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2083 Rs[.php:2208
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2028
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2153
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2034
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2159
 msgid "Repeat Vertical"
 msgstr "垂直方向の繰り返し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:200
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2216
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2161
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2167
 msgid "Background Image Attachment"
 msgstr "背景画像のスクロール"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:206
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2220
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2165
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2171
 msgid "Fixed"
 msgstr "固定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:207
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2221
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2166
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2172
 msgid "Scroll"
 msgstr "スクロール"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:212
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2091 Rs[.php:2229
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2036
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2174
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2042
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2180
 msgid "Background Image Position"
 msgstr "背景画像の配置"
 
@@ -620,8 +620,8 @@ msgstr "背景画像の配置"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:995
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2095 Rs[.php:2233
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2040
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2178
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2046
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2184
 msgid "Left Top"
 msgstr "Left Top"
 
@@ -629,8 +629,8 @@ msgstr "Left Top"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:996
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2096 Rs[.php:2234
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2041
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2179
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2047
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2185
 msgid "Left Center"
 msgstr "Left Center"
 
@@ -638,8 +638,8 @@ msgstr "Left Center"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:997
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2097 Rs[.php:2235
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2042
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2180
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2048
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2186
 msgid "Left Bottom"
 msgstr "Left Bottom"
 
@@ -647,8 +647,8 @@ msgstr "Left Bottom"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:998
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2098 Rs[.php:2236
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2043
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2181
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2049
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2187
 msgid "Right Top"
 msgstr "Right Top"
 
@@ -656,8 +656,8 @@ msgstr "Right Top"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:999
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2099 Rs[.php:2237
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2044
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2182
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2050
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2188
 msgid "Right Center"
 msgstr "Right Center"
 
@@ -665,8 +665,8 @@ msgstr "Right Center"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1000
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2100 Rs[.php:2238
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2045
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2183
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2051
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2189
 msgid "Right Bottom"
 msgstr "Right Bottom"
 
@@ -674,8 +674,8 @@ msgstr "Right Bottom"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1001
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2101 Rs[.php:2239
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2046
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2184
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2052
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2190
 msgid "Center Top"
 msgstr "Center Top"
 
@@ -683,8 +683,8 @@ msgstr "Center Top"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1002
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2102 Rs[.php:2240
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2047
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2185
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2053
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2191
 msgid "Center Center"
 msgstr "Center Center"
 
@@ -692,16 +692,16 @@ msgstr "Center Center"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1003
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2103 Rs[.php:2241
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2048
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2186
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2054
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2192
 msgid "Center Bottom"
 msgstr "Center Bottom"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:231
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2111 Rs[.php:2249
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2056
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2194
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2062
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2200
 msgid "Background Image Size"
 msgstr "背景画像のサイズ"
 
@@ -709,8 +709,8 @@ msgstr "背景画像のサイズ"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1014
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2115 Rs[.php:2253
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2060
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2198
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2066
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2204
 msgid "Auto"
 msgstr "Auto"
 
@@ -718,8 +718,8 @@ msgstr "Auto"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1015
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2116 Rs[.php:2254
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2061
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2199
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2067
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2205
 msgid "Contain"
 msgstr "Contain"
 
@@ -727,8 +727,8 @@ msgstr "Contain"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/admin/functions/functions.options.php:1016
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2117 Rs[.php:2255
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2062
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2200
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2068
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2206
 msgid "Cover"
 msgstr "Cover"
 
@@ -2699,16 +2699,16 @@ msgstr "ページコンテンツの表示"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:761
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:773
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:823
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1060
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1072
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1124
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1327
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1339
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1390
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1633
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1673
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1997
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2122
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1066
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1078
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1130
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1333
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1345
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1396
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1639
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1679
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2003
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2128
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-event.php:177
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-news.php:142
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-posts.php:143
@@ -2733,16 +2733,16 @@ msgstr "いいえ"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:762
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:774
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:824
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1061
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1073
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1125
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1328
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1340
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1391
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1634
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1674
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1998
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2123
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1067
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1079
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1131
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1334
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1346
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1397
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1640
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1680
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2004
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2129
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-event.php:176
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-news.php:141
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/widgets/recent-posts.php:142
@@ -2998,9 +2998,9 @@ msgstr "ギャラリーの設定（フォーマットでギャラリーを選択
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:634 Rs[.php:867 Rs[.php:1184 Rs[.php:1765
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:634
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:858
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1159
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1709
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:864
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1165
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1715
 msgid "Gallery Image Upload (Max 10pic)"
 msgstr "ギャラリー画像のアップロード（最大10画像）"
 
@@ -3013,7 +3013,7 @@ msgstr "リンクの設定（フォーマットでリンクを選択時に適用
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:654 Rs[.php:1021
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:654
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1004
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1010
 msgid "Link URL"
 msgstr "リンク URL"
 
@@ -3069,10 +3069,10 @@ msgstr "動画の設定（フォーマットで動画を選択時に適用され
 #: - Rs[.php:725 Rs[.php:888 Rs[.php:1205 Rs[.php:1492
 #: Rs[.php:1786
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:725
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:866
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1167
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1433
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1717
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:872
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1173
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1439
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1723
 msgid "Video Embed"
 msgstr "動画の埋め込み"
 
@@ -3080,10 +3080,10 @@ msgstr "動画の埋め込み"
 #: - Rs[.php:726 Rs[.php:889 Rs[.php:1206 Rs[.php:1493
 #: Rs[.php:1787
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:726
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:867
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1168
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1434
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1718
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:873
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1174
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1440
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1724
 msgid "Enter Video Embed Code"
 msgstr "動画の埋め込みコードを入力してください。"
 
@@ -3097,17 +3097,17 @@ msgstr "ポートフォリオ一覧ページ設定"
 #: - Rs[.php:752 Rs[.php:1068 Rs[.php:1356
 #: Rs[.php:1704
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:757
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1056
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1323
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1629
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1062
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1329
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1635
 msgid "Link to Single"
 msgstr "個別記事へのリンク"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:764 Rs[.php:1080 Rs[.php:1368
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:769
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1068
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1335
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1074
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1341
 msgid "Link to Lightbox"
 msgstr "ライトボックスへのリンク"
 
@@ -3127,9 +3127,9 @@ msgstr "ポートフォリオ個別記事レイアウト"
 #: - Rs[.php:794 Rs[.php:1111 Rs[.php:1398
 #: Rs[.php:1683
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:798
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1099
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1365
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1660
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1105
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1371
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1666
 msgid "Media On Left"
 msgstr "メディアの左側配置"
 
@@ -3137,9 +3137,9 @@ msgstr "メディアの左側配置"
 #: - Rs[.php:795 Rs[.php:1112 Rs[.php:1399
 #: Rs[.php:1684
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:799
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1100
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1366
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1661
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1106
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1372
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1667
 msgid "Media On Right"
 msgstr "メディアの右側配置"
 
@@ -3147,9 +3147,9 @@ msgstr "メディアの右側配置"
 #: - Rs[.php:796 Rs[.php:1113 Rs[.php:1400
 #: Rs[.php:1685
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:800
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1101
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1367
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1662
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1107
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1373
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1668
 msgid "Full Media On Top"
 msgstr "フルサイズメディアの上部配置"
 
@@ -3162,16 +3162,16 @@ msgstr "ポートフォリオ画像の表示"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:807 Rs[.php:1124 Rs[.php:1411
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:811
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1112
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1378
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1118
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1384
 msgid "Slider"
 msgstr "スライダー"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:808 Rs[.php:1125 Rs[.php:1412
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:812
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1113
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1379
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1119
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1385
 msgid "No Slider"
 msgstr "スライダーなし"
 
@@ -3184,27 +3184,27 @@ msgstr "ポートフォリオ情報の表示"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:833 Rs[.php:841
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:837
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:845
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:851
 msgid "Portfolio Media"
 msgstr "ポートフォリオメディア"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:845 Rs[.php:1162 Rs[.php:1449
 #: Rs[.php:1743
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:849
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1150
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1416
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1700
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:855
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1156
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1422
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1706
 msgid "Image"
 msgstr "画像"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:846 Rs[.php:1163 Rs[.php:1450
 #: Rs[.php:1744
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:850
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1151
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1417
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1701
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:856
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1157
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1423
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1707
 msgid "Video"
 msgstr "動画"
 
@@ -3220,13 +3220,13 @@ msgstr "ポートフォリオ動画"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:909
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:892
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:898
 msgid "Portfolio Information"
 msgstr "ポートフォリオ情報"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:917
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:900
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:906
 msgid ""
 "You can set the Portfolio Information Label in [ Appearance > Theme Options "
 "> Portfolio ]."
@@ -3236,56 +3236,56 @@ msgstr ""
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1012
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:995
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1001
 msgid "Link Text"
 msgstr "リンク テキスト"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1039
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1022
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1028
 msgid "Menu Price"
 msgstr "メニュー価格"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1046
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1029
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1035
 msgid "Price"
 msgstr "価格"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1060
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1043
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1049
 msgid "Menu Page Setting"
 msgstr "メニュー一覧ページ設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1099
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1087
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1093
 msgid "Menu Single Layout Setting"
 msgstr "メニュー個別記事レイアウト設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1107
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1095
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1101
 msgid "Menu Single Layout"
 msgstr "メニュー個別記事レイアウト"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1120
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1108
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1114
 msgid "Menu Image Display"
 msgstr "メニュー画像の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1132
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1120
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1126
 msgid "Show Menu Information"
 msgstr "メニュー情報の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1150 Rs[.php:1158
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1138
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1146
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1144
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1152
 msgid "Menu Media"
 msgstr "メニューメディア"
 
@@ -3301,13 +3301,13 @@ msgstr "メニュー動画"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1233
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1195
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1201
 msgid "Menu Information"
 msgstr "メニュー情報"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1241
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1203
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1209
 msgid ""
 "You can set the Menu Information Label in [ Appearance > Theme Options > "
 "Menu ]."
@@ -3316,38 +3316,38 @@ msgstr ""
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1348
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1310
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1316
 msgid "Event Page Setting"
 msgstr "イベント一覧ページ設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1386
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1353
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1359
 msgid "Event Single Layout Setting"
 msgstr "イベント個別記事レイアウト設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1394
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1361
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1367
 msgid "Event Single Layout"
 msgstr "イベント個別記事レイアウト"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1407
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1374
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1380
 msgid "Event Image Display"
 msgstr "イベント画像の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1419
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1386
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1392
 msgid "Show Event Information"
 msgstr "イベント情報の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1437 Rs[.php:1445
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1404
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1412
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1410
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1418
 msgid "Event Media"
 msgstr "イベントメディア"
 
@@ -3358,7 +3358,7 @@ msgstr "イベント画像"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1471
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1425
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1431
 msgid "Event Image Upload (Max 10pic)"
 msgstr "イベント画像のアップロード（最大10画像）"
 
@@ -3369,31 +3369,31 @@ msgstr "イベント動画"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1519
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1463
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1469
 msgid "Event Information"
 msgstr "イベント情報"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1527
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1471
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1477
 msgid "Event Start Date"
 msgstr "イベント開始日"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1541
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1485
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1491
 msgid "Event End Date"
 msgstr "イベント終了日"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1554
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1498
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1504
 msgid "Event Link URL(If not link to single page)"
 msgstr "イベント リンク URL(個別ページへリンクが無い場合に有効)"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1563
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1507
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1513
 msgid ""
 "You can set the Event Information Label in [ Appearance > Theme Options > "
 "Event ]."
@@ -3402,32 +3402,32 @@ msgstr ""
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1671
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1648
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1654
 msgid "Member Layout Setting"
 msgstr "レイアウト設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1679
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1656
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1662
 msgid "Member Layout"
 msgstr "レイアウト"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1692
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1669
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1675
 msgid "Show Member Information"
 msgstr "メンバー情報の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1716
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1823
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1829
 msgid "Member Position"
 msgstr "所属・役職・ポジション"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1731 Rs[.php:1739
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1688
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1696
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1694
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1702
 msgid "Member Media"
 msgstr "メンバーメディア"
 
@@ -3443,25 +3443,25 @@ msgstr "メンバー動画"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1800
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1736
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1742
 msgid "Member Social Information"
 msgstr "ソーシャルメディア情報"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1815
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1751
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1757
 msgid "Website URL"
 msgstr "ウェブサイト URL"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1879
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1815
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1821
 msgid "Member Information"
 msgstr "メンバー情報"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1888
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1833
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1839
 msgid ""
 "You can set the Member Information Label in [ Appearance > Theme Options > "
 "Member ]."
@@ -3470,87 +3470,87 @@ msgstr ""
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:1996
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1941
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1947
 msgid "Titlebar Settings"
 msgstr "タイトルバー設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2004
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1949
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1955
 msgid "Titlebar"
 msgstr "タイトルバー"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2008
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1953
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1959
 msgid "Default Titlebar"
 msgstr "デフォルトのタイトルバー"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2009
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1954
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1960
 msgid "Only Breadcrumbs"
 msgstr "パンくずリストだけを表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2010
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1955
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1961
 msgid "No Titlebar"
 msgstr "タイトルバー非表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2011 Rs[.php:2132
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1956
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2077
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1962
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2083
 msgid "Revolution Slider"
 msgstr "Revolution Slider"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2012 Rs[.php:2141
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1957
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2086
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1963
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2092
 msgid "FlexSlider"
 msgstr "FlexSlider"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2020
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1965
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1971
 msgid "Sub Title"
 msgstr "サブタイトル"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2030
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1975
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1981
 msgid "Summary"
 msgstr "概要"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2042
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1987
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1993
 msgid "Background settings for Titlebar section"
 msgstr "タイトルバーセクションの背景設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2048
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1993
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1999
 msgid "Enable Titlebar Background"
 msgstr "タイトルバー背景の有効化"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2126
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2071
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2077
 msgid "Select Slider"
 msgstr "スライダーの選択"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2158
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2103
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2109
 msgid "Background Settings"
 msgstr "背景設定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2167
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2112
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2118
 msgid ""
 "Please note that you need to set site layout to \"Boxed\" in order to see "
 "custom background."
@@ -3560,13 +3560,13 @@ msgstr ""
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2173
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2118
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2124
 msgid "Enable Background?"
 msgstr "背景の有効化"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box
 #: - Rs[.php:2193
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2138
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:2144
 msgid "Background Image"
 msgstr "背景画像"
 
@@ -3576,21 +3576,29 @@ msgstr ""
 "ポートフォリオ一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されま"
 "す。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1051
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:845
+msgid ""
+"When [ Gallery Image ] or [ Video Embed ] are not set, featured image is "
+"displayed in original aspect ratio."
+msgstr ""
+"ギャラリー画像、動画の埋め込みコードが設定されていない場合は、アイキャッチ画"
+"像がオリジナルの縦横比で表示されます。"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1057
 msgid "[ Featured Image ] is displayed on the menu page."
 msgstr ""
 "メニュー一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1318
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1324
 msgid "[ Featured Image ] is displayed on the event page."
 msgstr ""
 "イベント一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1616
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1622
 msgid "Member Page Setting"
 msgstr "メンバー一覧ページ設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1624
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\demo\wp-content\themes\editit/framework/inc/meta-box.php:1630
 msgid "[ Featured Image ] is displayed on the member page."
 msgstr ""
 "メンバー一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
