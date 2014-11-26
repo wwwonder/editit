@@ -157,7 +157,7 @@ function editit_register_meta_boxes(){
                         'no-sidebar'     => __( 'No Sidebar', 'editit' )
                       ),
         'multiple' => false,
-        'std'      => 'sidebar-right'
+        'std'      => 'no-sidebar'
 
       ),
 
