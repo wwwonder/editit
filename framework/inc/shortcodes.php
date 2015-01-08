@@ -158,6 +158,8 @@ function editit_headline( $atts, $content = null){
     'title'     => 'Title',
     'align'     => 'left',
     'margin'    => '',
+    'link'      => '',
+    'target'    => '_self',
     'id'        => ''
   ), $atts));
 
@@ -167,7 +169,15 @@ function editit_headline( $atts, $content = null){
     $headline_margin = "style='margin:" . $margin . " !important;'";
   }
 
-  return '<' . $heading . ' class="headline headline' . $style . ' ' . $align . '" ' . $headline_margin . ' id="' . $id . '"><span>' . $title . '</span></' . $heading . '>';
+
+  if($link == '') {
+    $headline_title = $title;
+  } else{
+    $headline_title = '<a href="' . $link . '" target="' . $target . '">' . $title . '</a>';
+  }
+
+
+  return '<' . $heading . ' class="headline headline' . $style . ' ' . $align . '" ' . $headline_margin . ' id="' . $id . '"><span>' . $headline_title . '</span></' . $heading . '>';
 }
 
 
