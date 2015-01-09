@@ -324,14 +324,6 @@ $of_options[] = array(
                 );
 
 $of_options[] = array(
-                  "name"      => __('Keywords for Meta Tag ', 'editit'),
-                  "desc"      => __('Enter site keyword for keywords of the Meta tag. Divide the keyword with a comma.', 'editit'),
-                  "id"        => "textarea_metakeywords",
-                  "std"       => "",
-                  "type"      => "textarea"
-                );
-
-$of_options[] = array(
                   "name"      => __('Home Text', 'editit'),
                   "desc"      => __('Setting of the link text to the top page displayed by a menu, breadcrumbs.', 'editit') . '<br>' . __('Default', 'editit') . ': Home',
                   "id"        => "text_hometext",
