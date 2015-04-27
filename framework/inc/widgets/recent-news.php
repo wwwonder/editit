@@ -34,7 +34,8 @@ class Widget_Recent_News extends WP_Widget {
     // create wp_query to get latest items
     $args = array(
               'post_type'            => 'news',
-              'orderby'              => "date",
+              'orderby'              => 'date',
+              'order'                => 'DESC',
               'post_status'          => 'publish',
               'posts_per_page'       => $instance["number"],
               'ignore_sticky_posts'  => 1
