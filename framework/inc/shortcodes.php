@@ -918,7 +918,8 @@ function editit_recent_posts( $atts, $content = null) {
   // create wp_query to get latest items
   $args = array(
             'post_type'            => 'post',
-            'orderby'              => "date",
+            'orderby'              => 'date',
+            'order'                => 'DESC',
             'post_status'          => 'publish',
             'posts_per_page'       => $number,
             'ignore_sticky_posts'  => 1
@@ -1016,7 +1017,8 @@ function editit_recent_news( $atts, $content = null) {
   // create wp_query to get latest items -----------
   $args = array(
             'post_type'            => 'news',
-            'orderby'              => "date",
+            'orderby'              => 'date',
+            'order'                => 'DESC',
             'post_status'          => 'publish',
             'posts_per_page'       => $number,
             'ignore_sticky_posts'  => 1

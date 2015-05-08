@@ -235,6 +235,38 @@ global $smof_data;
   }
 
   /* -- Header V2 V3 -- */
+
+
+  <?php if($smof_data['switch_mainmenuequalwidthplacement'] == true) : ?>
+
+    .header-v2 .navigation ul.menu,
+    .header-v3 .navigation ul.menu {
+      display: -webkit-box; /* Android 2~4 */
+      -webkit-box-pack: justify; /* Android 2~4 */
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex; /*フレキシブルボックス*/
+      float: none;
+    }
+
+    .header-v2 .navigation ul.menu > li,
+    .header-v3 .navigation ul.menu > li {
+      flex: 1;
+      -webkit-box-flex: 1; /* Android 2~4 */
+    }
+
+    .header-v2 .navigation ul.menu > li > a,
+    .header-v3 .navigation ul.menu > li > a{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+  <?php endif; // End of Main Menu Equal Width Placement ?>
+
+
+
+
   .header-v2-container,
   .header-v3-container {
     <?php if($smof_data['text_headerheight'] != "") { echo 'height: ' . $smof_data['text_headerheight'] . 'px;'; } ?>
@@ -244,6 +276,24 @@ global $smof_data;
   .header-v3.header .navigation {
     <?php if($smof_data['color_headernavbordertopcolor'] != "") { echo 'border-top-color: ' . $smof_data['color_headernavbordertopcolor'] . ';'; } ?>
     <?php if($smof_data['color_headernavbgcolor'] != "") { echo 'background-color: ' . $smof_data['color_headernavbgcolor'] . ';'; } ?>
+    <?php if($smof_data['text_headernavheight'] != "") { echo 'height: ' . ($smof_data['text_headernavheight'] + 3) . 'px;'; } ?>
+  }
+
+
+  .header-v2 .navigation ul.menu,
+  .header-v3 .navigation ul.menu {
+    <?php if($smof_data['text_headernavheight'] != "") { echo 'height: ' . ($smof_data['text_headernavheight'] + 3) . 'px;'; } ?>
+  }
+
+  .header-v2 .navigation ul.menu > li > a,
+  .header-v3 .navigation ul.menu > li > a {
+    <?php if($smof_data['text_headernavheight'] != "") { echo 'height: ' . $smof_data['text_headernavheight'] . 'px !important;;'; } ?>
+    <?php if($smof_data['text_headernavheight'] != "") { echo 'line-height: ' . $smof_data['text_headernavheight'] . 'px !important;;'; } ?>
+  }
+
+  .header-v2 .navigation .sub-menu,
+  .header-v3 .navigation .sub-menu {
+    <?php if($smof_data['text_headernavheight'] != "") { echo 'top: ' . $smof_data['text_headernavheight'] . 'px !important;;'; } ?>
   }
 
   /* -- Logo -- */
@@ -541,8 +591,7 @@ global $smof_data;
 
   /* Logo ------------------------------------------------------------------------ */
   .header .logo a.logo-text {
-    font-family: <?php echo $smof_data['font_logo']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_logo']['size']; ?>;
+    font: <?php echo $smof_data['font_logo']['style']; ?> <?php echo $smof_data['font_logo']['size']; ?>/1.0 <?php echo $smof_data['font_logo']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_logo']['color']; ?>;
   }
 
@@ -551,74 +600,83 @@ global $smof_data;
   }
 
   /* Navigation ------------------------------------------------------------------------ */
-  .header .navigation a {
+  .header .navigation ul.menu > li > a {
+
     font-family: <?php echo $smof_data['font_nav']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     font-size: <?php echo $smof_data['font_nav']['size']; ?>;
+
+    <?php if($smof_data['font_nav']['style'] == 'normal'): ?>
+    font-weight: normal;
+
+    <?php elseif($smof_data['font_nav']['style'] == 'italic'): ?>
+    font-weight: normal;
+    font-syle: italic;
+
+    <?php elseif($smof_data['font_nav']['style'] == 'bold'): ?>
+    font-weight: bold;
+
+    <?php elseif($smof_data['font_nav']['style'] == 'bold italic'): ?>
+    font-weight: bold;
+    font-syle: italic;
+
+    <?php endif; ?>
+
   }
 
   /* Page Title ------------------------------------------------------------------------ */
 
   .titlebar h1 {
-    font-size: <?php echo $smof_data['font_titlebarmaintitle']['size']; ?>;
-    font-family: <?php echo $smof_data['font_titlebarmaintitle']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font: <?php echo $smof_data['font_titlebarmaintitle']['style']; ?> <?php echo $smof_data['font_titlebarmaintitle']['size']; ?>/1.0 <?php echo $smof_data['font_titlebarmaintitle']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_titlebarmaintitle']['color']; ?>;
   }
 
   /* Page SubTitle ------------------------------------------------------------------------ */
   .titlebar h1 .sub {
-    font-family: <?php echo $smof_data['font_titlebarsubtitle']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_titlebarsubtitle']['size']; ?>;
+    font: <?php echo $smof_data['font_titlebarsubtitle']['style']; ?> <?php echo $smof_data['font_titlebarsubtitle']['size']; ?>/1.0 <?php echo $smof_data['font_titlebarsubtitle']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_titlebarsubtitle']['color']; ?>;
   }
 
   /* Headlines ------------------------------------------------------------------------ */
   h1{
-    font-family: <?php echo $smof_data['font_h1']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h1']['size']; ?>;
+    font: <?php echo $smof_data['font_h1']['style']; ?> <?php echo $smof_data['font_h1']['size']; ?>/1.6 <?php echo $smof_data['font_h1']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h1']['color']; ?>;
   }
 
   h2{
-    font-family: <?php echo $smof_data['font_h2']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h2']['size']; ?>;
+    font: <?php echo $smof_data['font_h2']['style']; ?> <?php echo $smof_data['font_h2']['size']; ?>/1.6 <?php echo $smof_data['font_h2']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h2']['color']; ?>;
   }
 
   h3{
-    font-family: <?php echo $smof_data['font_h3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h3']['size']; ?>;
+    font: <?php echo $smof_data['font_h3']['style']; ?> <?php echo $smof_data['font_h3']['size']; ?>/1.6 <?php echo $smof_data['font_h3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h3']['color']; ?>;
   }
 
   h4{
-    font-family: <?php echo $smof_data['font_h4']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h4']['size']; ?>;
+    font: <?php echo $smof_data['font_h4']['style']; ?> <?php echo $smof_data['font_h4']['size']; ?>/1.6 <?php echo $smof_data['font_h4']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h4']['color']; ?>;
   }
 
   h5{
-    font-family: <?php echo $smof_data['font_h5']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h5']['size']; ?>;
+    font: <?php echo $smof_data['font_h5']['style']; ?> <?php echo $smof_data['font_h5']['size']; ?>/1.6 <?php echo $smof_data['font_h5']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h5']['color']; ?>;
   }
 
   h6{
-    font-family: <?php echo $smof_data['font_h6']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_h6']['size']; ?>;
+    font: <?php echo $smof_data['font_h6']['style']; ?> <?php echo $smof_data['font_h6']['size']; ?>/1.6 <?php echo $smof_data['font_h6']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_h6']['color']; ?>;
   }
 
   /* Sidebar Widget Title ------------------------------------------------------------------------ */
   .sidebar .widget h3.title {
-    font-family: <?php echo $smof_data['font_sidebarh3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_sidebarh3']['size']; ?>;
+    font: <?php echo $smof_data['font_sidebarh3']['style']; ?> <?php echo $smof_data['font_sidebarh3']['size']; ?>/1.0 <?php echo $smof_data['font_sidebarh3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+
     color: <?php echo $smof_data['font_sidebarh3']['color']; ?>;
   }
 
   /* Footer Widget Title ------------------------------------------------------------------------ */
   .footer .widget h3.title {
-    font-family: <?php echo $smof_data['font_footerh3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    font-size: <?php echo $smof_data['font_footerh3']['size']; ?>;
+    font: <?php echo $smof_data['font_footerh3']['style']; ?> <?php echo $smof_data['font_footerh3']['size']; ?>/1.0 <?php echo $smof_data['font_footerh3']['face']; ?>, Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: <?php echo $smof_data['font_footerh3']['color']; ?>;
   }
 

@@ -9,6 +9,7 @@ var e=this.getItems(t);e=e.length?e:this.items,this._updateItemsSortData(e)},d.p
 jQuery(document).ready(function($){
 
   // Portfolio isotope
+
   var $portfolio_container = $('#portfolio-wrap');
   $('.portfolio-categories a').click(function(){
     $('.portfolio-categories a').removeClass('active');

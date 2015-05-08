@@ -26,6 +26,8 @@
     .header .logo a.logo-text {
       font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
       font-size: 30px;
+      font-weight: normal;
+      font-style: normal;
       color: #000;
     }
 
@@ -67,6 +69,7 @@
         .header .navigation ul li a {
           display: block;
           float: left;
+          text-decoration: none;
         }
 
         .header .navigation ul li a:hover { text-decoration: none; }
@@ -93,6 +96,7 @@
 
         .header .navigation ul.menu > li > a {
           font-weight: bold;
+          font-style: normal;
           color: #666;
         }
 
@@ -149,6 +153,8 @@
               width: 206px;
               line-height: 1 !important;
               font-size: 11px !important;
+              font-style: normal;
+              font-weight: normal;
               background-color: #333;
               color: #fff;
               border-top: 1px solid #3f3f3f;

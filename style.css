@@ -11,6 +11,35 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 */
 
 
+/*
+F 01. Skeleton Grid 960px / 16 Columns
+F 02. General Styles
+F 03. Typography
+F 04. Forms
+F 05. Boxed Layout
+F 06. Topbar
+F 07. Social Icons
+F 09. Titlebar
+F 10. Content
+F 11. Blog & News
+F 12. Pagination
+F 13. Comments
+F 14. Portfolio
+F 15. Menu
+16. Event
+17. FAQ
+18. Member
+19. Sidebar
+20. Widgets
+21. Footer
+22. Contactform 7 Specific Styling
+23. 404
+24.Flex Slider
+25.Revolution Slider
+30. Accent Color
+*/
+
+
 /* ------------------------------------------------------------------------ */
 /* 01. Skeleton Grid 960px / 16 Columns */
 /* ------------------------------------------------------------------------ */
@@ -30,9 +59,6 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
     margin-left: 10px;
     margin-right: 10px;
   }
-
-.row { margin-bottom: 20px; }
-
 
 /* -- Nested Column Classes -- */
 .column.alpha,
@@ -96,9 +122,7 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 }
 
 .clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
+.clearfix:after {
   content: '\0020';
   display: block;
   overflow: hidden;
@@ -107,10 +131,8 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
   height: 0;
 }
 
-.row:after,
 .clearfix:after { clear: both; }
 
-.row,
 .clearfix { zoom: 1; }
 
 .clear {
@@ -119,7 +141,6 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
   width: 0;
   height: 0;
 }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -136,9 +157,7 @@ Coding Rule: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 
 body {
   background-color: #fff;
-  font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-  font-size: 13px;
-  line-height: 1.8;
+  font: normal normal 13px/1.8 Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -172,18 +191,11 @@ h5,
 h6 {
   color: #444;
   font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1.6;
 }
-
-  h1 a,
-  h2 a,
-  h3 a,
-  h4 a,
-  h5 a,
-  h6 a {}
 
 h1 { font-size: 28px; }
 h2 { font-size: 22px; }
@@ -234,11 +246,12 @@ a:visited {
 a:hover,
 a:focus {
   color: #666;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
 /* -- Transititon for Links -- */
+
 a {
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -250,9 +263,8 @@ a {
 
 /* -- Lists -- */
 ul,
-ol { 
-  margin-bottom: 20px;
-  margin-left: 0px; 
+ol {
+  margin: 0 0 20px 0;
 }
 
 ul { list-style: disc inside; }
@@ -263,9 +275,7 @@ ol { list-style: decimal inside; }
     ul li ol,
     ol li ul,
     ol li ol {
-      margin-bottom: 0;
-      margin-left: 20px;
-      margin-top: 10px;
+      margin: 10px 0 0 20px;
     }
 
 ul li,
@@ -275,9 +285,7 @@ ol li {
 
 ul.bordered li,
 ol.bordered li {
-  border-bottom-width: 1px;
-  border-bottom-color: #CCC;
-  border-bottom-style: solid;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 8px;
 }
 
@@ -285,7 +293,6 @@ ul.bordered.dotted li,
 ol.bordered.dotted li {
   border-bottom-style: dotted;
 }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -312,7 +319,6 @@ select {
           border-radius: 2px;
   font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
   font-size: 13px;
-  max-width: 100%;
   display: block;
   margin: 0 0 15px 0;
   width: 400px;
@@ -355,23 +361,31 @@ input[type="reset"],
 input[type="button"] {
   margin:0 5px 5px 0;
   font-size:13px;
-  font-family: Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
   line-height:13px;
-  padding: 10px 20px;
+  padding:12px 20px;
   border: 1px solid #ddd;
   font-weight:bold;
   display: inline-block;
+  background-color: #FFFFFF;
   cursor: pointer;
-  background-color: #fff;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover { background-color: #f3f3f3; }
+input[type="button"]:hover {
+  border: 1px solid #ddd;
+  background-color: #f3f3f3;
+  text-decoration: none;
+}
 
 
 /* ------------------------------------------------------------------------ */
@@ -383,7 +397,6 @@ input[type="button"]:hover { background-color: #f3f3f3; }
   margin: 0px auto;
   background-color: #fff;
 }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -398,8 +411,7 @@ input[type="button"]:hover { background-color: #f3f3f3; }
 
 /* -- Topbar Text -- */
   .topbar .topbar-text {
-    line-height: 40px;
-    font-size: 11px;
+    font: normal normal 11px/40px Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: #999;
   }
 
@@ -465,7 +477,6 @@ input[type="button"]:hover { background-color: #f3f3f3; }
     }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 07. Social Icons */
 /* ------------------------------------------------------------------------ */
@@ -475,7 +486,7 @@ ul.social-icons { margin: 0; }
   ul.social-icons li {
     display: inline-block;
     float: left;
-        margin-bottom: 0;
+    margin-bottom: 0;
   }
 
     ul.social-icons li a {
@@ -541,7 +552,6 @@ ul.social-icons { margin: 0; }
       .member-item ul.social-icons li a:hover i { color: #666; }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 09. Titlebar */
 /* ------------------------------------------------------------------------ */
@@ -557,13 +567,12 @@ ul.social-icons { margin: 0; }
 
   .titlebar h1 {
     margin: 0;
-    font-size: 25px;
-    line-height: 1.0;
+    font: normal normal 25px/1.0 Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     color: #333;
   }
 
     .titlebar h1 .sub {
-      font-size: 12px;
+      font: normal normal 12px/1.0 Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
       color: #666;
     }
 
@@ -574,7 +583,7 @@ ul.social-icons { margin: 0; }
 
   .titlebar h2 {
     color: #666;
-    font-size: 13px;
+    font: normal normal 13px/1.6 Arial, Helvetica, 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
     margin-top: 5px;
   }
 
@@ -609,19 +618,19 @@ ul.social-icons { margin: 0; }
 .no-titlebar-divider { border-top: 1px solid #e3e3e3; }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 10. Content */
 /* ------------------------------------------------------------------------ */
 
 .page-wrap { padding: 40px 0 ; }
 
+    .content .page { margin-bottom: 30px; }
+
     .content.sidebar-left { float: right; }
 
     .content.sidebar-right .page { margin-right: 10px; }
 
     .content.sidebar-left .page { margin-left: 10px; }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -654,7 +663,6 @@ ul.social-icons { margin: 0; }
     .post-content-header { margin-bottom: 20px; }
 
         .post-content-header .post-title h2 {
-          font-weight: bold;
           font-size: 20px;
           margin: 0;
         }
@@ -852,7 +860,6 @@ ul.social-icons { margin: 0; }
 .single.sidebar-left .post-navigation { margin-left: 10px; }
 
 
-
 /* -- Sharebox -- */
 .sharebox {
   border-top: 1px solid #e3e3e3;
@@ -890,7 +897,6 @@ ul.social-icons { margin: 0; }
 
     .author-info .author-bio h4 {
       font-size: 20px;
-      font-weight: bold;
       margin: 0;
     }
 
@@ -924,7 +930,6 @@ ul.social-icons { margin: 0; }
     }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 12. Pagination */
 /* ------------------------------------------------------------------------ */
@@ -953,7 +958,6 @@ ul.social-icons { margin: 0; }
     border-color: #333;
     color: #fff !important;
   }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -1046,9 +1050,7 @@ ul.social-icons { margin: 0; }
 
 /* -- Respond -- */
 
-#respond {
-  margin-bottom: 40px;
-}
+#respond { margin-bottom: 40px; }
 
   #respond form { margin-top:30px; }
 
@@ -1078,7 +1080,6 @@ ul.social-icons { margin: 0; }
       float: left;
       width: 100%;
     }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -1116,6 +1117,7 @@ ul.social-icons { margin: 0; }
         color: #999;
         padding: 10px 20px 10px 20px;
         background-color: #fff;
+        text-decoration: none;
       }
 
       .categories ul li:first-child a {
@@ -1220,7 +1222,6 @@ ul.social-icons { margin: 0; }
       }
 
         .portfolio-item .portfolio-content .portfolio-content-header .portfolio-title h2 {
-          font-weight: bold;
           font-size: 13px;
           margin-bottom: 0px;
           white-space: nowrap;
@@ -1292,7 +1293,6 @@ ul.social-icons { margin: 0; }
   .portfolio-single-item .portfolio-content .portfolio-content-header { margin-bottom: 20px; }
 
       .portfolio-single-item .portfolio-content .portfolio-content-header .portfolio-title h2 {
-        font-weight: bold;
         font-size: 20px;
         margin: 0;
       }
@@ -1320,7 +1320,6 @@ ul.social-icons { margin: 0; }
         color: #aeaeae;
         margin: 0 20px 0 0;
       }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -1390,13 +1389,12 @@ ul.social-icons { margin: 0; }
 
 .menu-thumbnail ~ .menu-content { float: left; }
 
-.menu-thumbnail.large ~ .menu-content { width: 760px; }
-.menu-thumbnail.medium ~ .menu-content { width: 800px; }
-.menu-thumbnail.small ~ .menu-content { width: 840px; }
+.menu-thumbnail.large ~ .menu-content { width: calc(100% - 160px - 20px); }
+.menu-thumbnail.medium ~ .menu-content { width: calc(100% - 120px - 20px); }
+.menu-thumbnail.small ~ .menu-content { width: calc(100% - 80px - 20px); }
 
         .menu-title h2 {
           margin: 0;
-          font-weight: bold;
           font-size: 15px;
         }
 
@@ -1406,14 +1404,12 @@ ul.social-icons { margin: 0; }
           margin: 0;
           font-size: 12px;
           color: #999;
-          font-weight: bold;
         }
 
       .menu-excerpt {
         font-size: 12px;
         color: #666;
       }
-
 
 
 /* -- Menu - Single -- */
@@ -1425,7 +1421,6 @@ ul.social-icons { margin: 0; }
 .menu-single-item .menu-list { margin-bottom: 30px; }
 
 .menu-video iframe{ max-width: 100%; }
-
 
   .menu-single-item .menu-content .menu-content-header { margin-bottom: 20px; }
 
@@ -1472,9 +1467,8 @@ ul.social-icons { margin: 0; }
 }
 
 
-
 /* ------------------------------------------------------------------------ */
-/* 17. Event */
+/* 16. Event */
 /* ------------------------------------------------------------------------ */
 
 .event-wrap { width: 100%; }
@@ -1540,9 +1534,9 @@ ul.social-icons { margin: 0; }
 
 .event-thumbnail ~ .event-content { float: left; }
 
-.event-thumbnail.large ~ .event-content { width: 760px; }
-.event-thumbnail.medium ~ .event-content { width: 800px; }
-.event-thumbnail.small ~ .event-content { width: 840px; }
+.event-thumbnail.large ~ .event-content { width: calc(100% - 160px - 20px); }
+.event-thumbnail.medium ~ .event-content { width: calc(100% - 120px - 20px); }
+.event-thumbnail.small ~ .event-content { width: calc(100% - 80px - 20px); }
 
       .event-date h3 {
         font-size: 12px;
@@ -1553,7 +1547,6 @@ ul.social-icons { margin: 0; }
         .event-title h2 {
           margin: 0;
           padding: 0;
-          font-weight: bold;
           font-size: 15px;
         }
 
@@ -1627,8 +1620,6 @@ ul.social-icons { margin: 0; }
     width: 30px;
     margin-right: 20px;
   }
-
-
 
 
 /* ---- head ---- */
@@ -1718,7 +1709,6 @@ ul.social-icons { margin: 0; }
   .event-single-item .event-content .event-content-header { margin-bottom: 20px; }
 
       .event-single-item .event-content .event-content-header .event-title h2 {
-        font-weight: bold;
         font-size: 20px;
         margin: 0;
       }
@@ -1754,7 +1744,6 @@ ul.social-icons { margin: 0; }
         margin: 0 20px 0 0;
       }
 
-
 .event-list li {
     line-height: 0;
     margin: 0 0 20px 0;
@@ -1764,7 +1753,6 @@ ul.social-icons { margin: 0; }
     display: block;
     position: relative;
 }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -1802,7 +1790,6 @@ ul.social-icons { margin: 0; }
     padding-top: 10px;
     padding-bottom: 20px;
   }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -1856,7 +1843,6 @@ ul.social-icons { margin: 0; }
           text-align: center;
           margin-top: 15px;
           margin-bottom: 0;
-          font-weight: bold;
           font-size: 16px !important;
         }
 
@@ -1936,7 +1922,6 @@ ul.social-icons { margin: 0; }
   .member-single-item .member-content .member-content-header { margin-bottom: 20px; }
 
       .member-single-item .member-content .member-content-header .member-title h2 {
-        font-weight: bold;
         font-size: 20px;
         margin: 0;
       }
@@ -1945,13 +1930,11 @@ ul.social-icons { margin: 0; }
 
         .member-single-item .member-content .member-content-header .member-title h2 a:hover { color: #999; }
 
-
   .member-single-item .member-content .member-position h3 {
     margin: 10px 0 10px 0 !important;
     font-size: 12px;
     line-height: 1.0;
   }
-
 
   .member-single-item .member-content .member-excerpt { margin-bottom: 20px; }
 
@@ -2016,7 +1999,6 @@ ul.social-icons { margin: 0; }
       .sidebar .widget ul li.current-menu-item {
         font-weight: bold;
       }
-
 
 
 /* ------------------------------------------------------------------------ */
@@ -2121,6 +2103,7 @@ ul.social-icons { margin: 0; }
         border-bottom-color: #efefef;
         border-top-color: #efefef;
         color: #777;
+        text-decoration: none;
       }
 
       .widget_side_nav ul li a span.icon {
@@ -2155,7 +2138,6 @@ ul.social-icons { margin: 0; }
 
       .widget_side_nav ul li.current_page_item a span.icon,
       .widget_side_nav ul li.current_page_item a:hover span.icon { color: #fff !important; }
-
 
 
 
@@ -2400,7 +2382,6 @@ ul.social-icons { margin: 0; }
   }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 22. Contactform 7 Specific Styling */
 /* ------------------------------------------------------------------------ */
@@ -2425,7 +2406,6 @@ ul.social-icons { margin: 0; }
 .wpcf7-form select { margin-top: 5px; }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 23. 404 */
 /* ------------------------------------------------------------------------ */
@@ -2447,7 +2427,6 @@ ul.social-icons { margin: 0; }
   }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 24.Flex Slider
 /* ------------------------------------------------------------------------ */
@@ -2455,11 +2434,9 @@ ul.social-icons { margin: 0; }
 .wooslider .wp-caption-text { background-color: rgba(0, 0, 0, 0.6) !important; }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* 25.Revolution Slider
 /* ------------------------------------------------------------------------ */
-
 
 
 /* ------------------------------------------------------------------------ */

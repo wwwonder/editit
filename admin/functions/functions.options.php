@@ -636,6 +636,15 @@ $of_options[] = array(
                 );
 
 /* Main Menu */
+
+$of_options[] = array(
+                  "name"      => __('Main Menu Equal Width Placement (Option Only HeaderV2 HeaderV3 )', 'editit'),
+                  "desc"      => __('Default', 'editit') . ': OFF',
+                  "id"        => "switch_mainmenuequalwidthplacement",
+                  "std"       => 0,
+                  "type"      => "switch"
+                );
+
 $of_options[] = array(
                   "name"      => __('Main Menu Text Color', 'editit'),
                   "desc"      => "",
@@ -869,6 +878,15 @@ $of_options[] = array(
                 );
 
 /* Option Only HeaderV2 HeaderV3 */
+
+$of_options[] = array(
+                  "name"      => __('Navigation Height (Option Only HeaderV2 HeaderV3 )', 'editit'),
+                  "desc"      => "",
+                  "id"        => "text_headernavheight",
+                  "std"       => "",
+                  "type"      => "text"
+                );
+
 $of_options[] = array(
                   "name"      => __('Navigation Background Color (Option Only HeaderV2 HeaderV3 )', 'editit'),
                   "desc"      => "",
@@ -1146,97 +1164,97 @@ $of_options[] = array(
 
 $of_options[] = array(
                   "name"      => __('Logo - Text Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 30px Arial #000000",
+                  "desc"      => __('Default', 'editit') . ": 30px Arial Normal #000000",
                   "id"        => "font_logo",
-                  "std"       => array('size' => '30px','face' => 'arial','color' => '#000000'),
+                  "std"       => array('size' => '30px','face' => 'arial','style' => 'normal','color' => '#000000'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('Navigation Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 13px Arial",
+                  "desc"      => __('Default', 'editit') . ": 13px Arial Bold",
                   "id"        => "font_nav",
-                  "std"       => array('size' => '13px','face' => 'arial'),
+                  "std"       => array('size' => '13px','face' => 'arial','style' => 'bold'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('Titlebar Main Title Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 25px Arial #333333",
+                  "desc"      => __('Default', 'editit') . ": 25px Arial Normal #333333",
                   "id"        => "font_titlebarmaintitle",
-                  "std"       => array('size' => '25px','face' => 'arial','color' => '#333333'),
+                  "std"       => array('size' => '25px','face' => 'arial','style' => 'normal','color' => '#333333'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('Titlebar Sub Title Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 12px Arial #666666",
+                  "desc"      => __('Default', 'editit') . ": 12px Arial Normal #666666",
                   "id"        => "font_titlebarsubtitle",
-                  "std"       => array('size' => '12px','face' => 'arial','color' => '#666666'),
+                  "std"       => array('size' => '12px','face' => 'arial','style' => 'normal','color' => '#666666'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('H1 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 28px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 28px Arial Bold #444444",
                   "id"        => "font_h1",
-                  "std"       => array('size' => '28px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '28px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );  
 
 $of_options[] = array(
                   "name"      => __('H2 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 22px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 22px Arial Bold #444444",
                   "id"        => "font_h2",
-                  "std"       => array('size' => '22px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '22px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );  
 
 $of_options[] = array(
                   "name"      => __('H3 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 18px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 18px Arial Bold #444444",
                   "id"        => "font_h3",
-                  "std"       => array('size' => '18px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '18px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('H4 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 16px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 16px Arial Bold #444444",
                   "id"        => "font_h4",
-                  "std"       => array('size' => '16px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '16px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('H5 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 14px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 14px Arial Bold #444444",
                   "id"        => "font_h5",
-                  "std"       => array('size' => '15px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '15px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('H6 - Headline Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 12px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 12px Arial Bold #444444",
                   "id"        => "font_h6",
-                  "std"       => array('size' => '14px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '14px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('Sidebar Widget Title Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 15px Arial #444444",
+                  "desc"      => __('Default', 'editit') . ": 15px Arial Bold #444444",
                   "id"        => "font_sidebarh3",
-                  "std"       => array('size' => '15px','face' => 'arial','color' => '#444444'),
+                  "std"       => array('size' => '15px','face' => 'arial','style' => 'bold','color' => '#444444'),
                   "type"      => "typography"
                 );
 
 $of_options[] = array(
                   "name"      => __('Footer Widget Title Font', 'editit'),
-                  "desc"      => __('Default', 'editit') . ": 15px Arial #FFFFFF",
+                  "desc"      => __('Default', 'editit') . ": 15px Arial Normal #FFFFFF",
                   "id"        => "font_footerh3",
-                  "std"       => array('size' => '15px','face' => 'arial','color' => '#FFFFFF'),
+                  "std"       => array('size' => '15px','face' => 'arial','style' => 'normal','color' => '#FFFFFF'),
                   "type"      => "typography"
                 );
 

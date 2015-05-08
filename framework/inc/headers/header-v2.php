@@ -13,7 +13,7 @@
 ?>
 <header id="header-v2" class="header-v2 header clearfix">
   <div class="header-v2-container container">
-    <div class="four columns">
+    <div class="eight columns">
       <div class="logo">
         <?php if($smof_data['media_logo'] != "") : ?>
           <a href="<?php echo home_url(); ?>/"><img src="<?php echo $smof_data['media_logo']; ?>" alt="<?php bloginfo('name'); ?>" class="logo-img logo-standard" /></a>
@@ -25,7 +25,7 @@
         <?php endif; ?>
       </div>
     </div>
-    <div id="slogan" class="slogan twelve columns">
+    <div id="slogan" class="slogan eight columns">
       <?php echo $smof_data['textarea_headerslogantext']; ?>
       <div class="clear"></div>
     </div>

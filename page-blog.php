@@ -39,6 +39,9 @@ Template Name: Blog
       </div>
     </article>
 
+    
+
+
     <?php endif; ?>
   <?php endwhile; endif; ?>
 

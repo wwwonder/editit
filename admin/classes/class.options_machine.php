@@ -252,7 +252,7 @@ class Options_Machine {
           if(isset($typography_stored['size'])) {
             $output .= '<div class="select_wrapper typography-size" original-title="Font size">';
             $output .= '<select class="of-typography of-typography-size select" name="'.$value['id'].'[size]" id="'. $value['id'].'_size">';
-              for ($i = 9; $i < 50; $i++){ 
+              for ($i = 9; $i < 51; $i++){ 
                 $test = $i.'px';
                 $output .= '<option value="'. $i .'px" ' . selected($typography_stored['size'], $test, false) . '>'. $i .'px</option>'; 
                 }

@@ -99,7 +99,6 @@
   line-height: 1 !important;
   margin-bottom: 20px;
   background: url(../images/stripes.png) left top;
-  font-weight: bold !important;
 }
 
 .headline.left { text-align: left; }
@@ -804,15 +803,15 @@ ul.styled-list {
       position: relative;
     }
 
-  .recent-post .post-image ~ .post-content,
-  .recent-news .post-image ~ .post-content,
-  .recent-event .post-image ~ .post-content { margin-left: 110px; }
-
   .recent-post .post-content,
   .recent-news .post-content,
   .recent-event .post-content {
-    float: none;
+    float: left;
   }
+
+  .recent-post .post-image ~ .post-content,
+  .recent-news .post-image ~ .post-content,
+  .recent-event .post-image ~ .post-content { width: calc(100% - 90px - 15px); }
 
     .recent-post .post-content .post-content-header,
     .recent-news .post-content .post-content-header,
@@ -823,7 +822,6 @@ ul.styled-list {
         .recent-event .post-content .post-content-header .post-title h4 {
           margin: 0;
           font-size: 12px;
-          font-weight: bold;
         }
 
       .recent-post .post-content .post-content-header .post-date,
@@ -894,7 +892,6 @@ ul.styled-list {
       }
 
         .recent-portfolio-item .portfolio-content .portfolio-content-header .portfolio-title h2 {
-          font-weight: bold;
           font-size: 13px;
           margin-bottom: 0px;
           white-space: nowrap;

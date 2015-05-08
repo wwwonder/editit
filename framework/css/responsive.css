@@ -82,24 +82,6 @@
 
 
     /* ------------------------------------------------------------------------ */
-    /* 15.Menu */
-    /* ------------------------------------------------------------------------ */
-
-    .menu-thumbnail.large ~ .menu-content { width: 568px; }
-    .menu-thumbnail.medium ~ .menu-content { width: 608px; }
-    .menu-thumbnail.small ~ .menu-content { width: 648px; }
-
-
-    /* ------------------------------------------------------------------------ */
-    /* 16.Event */
-    /* ------------------------------------------------------------------------ */
-
-    .event-thumbnail.large ~ .event-content { width: 568px; }
-    .event-thumbnail.medium ~ .event-content { width: 608px; }
-    .event-thumbnail.small ~ .event-content { width: 648px; }
-
-
-    /* ------------------------------------------------------------------------ */
     /* 18.Member */
     /* ------------------------------------------------------------------------ */
 
@@ -254,7 +236,7 @@
 
     .header .logo img { max-width: 100%; }
 
-    .header .navigation ul { display:none; }
+    .header .navigation ul { display: none !important; }
 
     .header .navigation .select-menu {
       display: inherit !important;
@@ -519,24 +501,6 @@
 
 
     /* ------------------------------------------------------------------------ */
-    /* 15. Menu */
-    /* ------------------------------------------------------------------------ */
-
-    .menu-thumbnail.large ~ .menu-content { width: 240px; }
-    .menu-thumbnail.medium ~ .menu-content { width: 280px; }
-    .menu-thumbnail.small ~ .menu-content { width: 320px; }
-
-
-    /* ------------------------------------------------------------------------ */
-    /* 16. Event */
-    /* ------------------------------------------------------------------------ */
-
-    .event-thumbnail.large ~ .event-content { width: 240px; }
-    .event-thumbnail.medium ~ .event-content { width: 280px; }
-    .event-thumbnail.small ~ .event-content { width: 320px; }
-
-
-    /* ------------------------------------------------------------------------ */
     /* 18. Member */
     /* ------------------------------------------------------------------------ */
 
@@ -650,24 +614,6 @@
     .portfolio-item.one-third.showportfoliotitle,
     .portfolio-item.eight.showportfoliotitle,
     .portfolio-item.sixteen.showportfoliotitle { height: 278px !important; }
-
-
-    /* ------------------------------------------------------------------------ */
-    /* 15. Menu */
-    /* ------------------------------------------------------------------------ */
-
-    .menu-thumbnail.large ~ .menu-content { width: 120px; }
-    .menu-thumbnail.medium ~ .menu-content { width: 160px; }
-    .menu-thumbnail.small ~ .menu-content { width: 200px; }
-
-
-    /* ------------------------------------------------------------------------ */
-    /* 16. Event */
-    /* ------------------------------------------------------------------------ */
-
-    .event-thumbnail.large ~ .event-content { width: 120px; }
-    .event-thumbnail.medium ~ .event-content { width: 160px; }
-    .event-thumbnail.small ~ .event-content { width: 200px; }
 
 
     /* ------------------------------------------------------------------------ */

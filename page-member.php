@@ -109,7 +109,7 @@ Template Name: Member
 
           <?php else: ?>
 
-            <img src="<?php bloginfo('template_directory'); ?>/framework/images/square-noimage.png">
+            <img src="<?php bloginfo('template_directory'); ?>/framework/images/member-noimage.png">
 
           <?php endif; ?>
 
