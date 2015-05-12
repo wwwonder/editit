@@ -37,6 +37,22 @@
         <div class="clear"></div>
       </div>
 
+      <?php if(rwmb_meta('editit_selectmenudisplaycouponinformation')): ?>
+      <div class="menu-coupon-info">
+        <ul>
+          <?php if(rwmb_meta('editit_textmenupresentationconditiontext')): ?>
+            <li><?php _e('Presentation condition', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenupresentationconditiontext'); ?></li>
+          <?php endif; ?>
+          <?php if(rwmb_meta('editit_textmenuuseconditiontext')): ?>
+            <li><?php _e('Use condition', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenuuseconditiontext'); ?></li>
+          <?php endif; ?>
+          <?php if(rwmb_meta('editit_textmenuexpirationdatetext')): ?>
+            <li><?php _e('Expiration date', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenuexpirationdatetext'); ?></li>
+          <?php endif; ?>
+        </ul>
+      </div>
+      <?php endif; ?>
+
     </div>
 
     <?php if( rwmb_meta( 'editit_selectshowmenuinformation' ) ): ?>

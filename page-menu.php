@@ -97,7 +97,7 @@ Template Name: Menu
         $terms = get_the_terms( get_the_ID(), 'menu_category' );
     ?>
 
-    <article class='<?php if($terms) : foreach ($terms as $term) { echo 'term-'.$term->slug.' '; } endif; ?>menu-item sixteen columns'>
+    <article class='<?php if($terms) : foreach ($terms as $term) { echo 'term-'.$term->slug.' '; } endif; ?><?php if(rwmb_meta('editit_selectmenudisplaycouponinformation')): ?>coupon <?php endif; ?>menu-item sixteen columns'>
 
       <?php if($thumbnail): ?>
         <?php if ( has_post_thumbnail()): ?>
@@ -129,6 +129,9 @@ Template Name: Menu
         <div class="menu-content-header">
           <div class="menu-title">
             <h2>
+            <?php if(rwmb_meta('editit_selectmenudisplaycouponinformation')): ?>
+              <span><?php _e('Coupon', 'editit'); ?></span>
+            <?php endif; ?>
             <?php if(rwmb_meta('editit_selectmenulinktosinglepage')): ?>
               <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
             <?php else: ?>
@@ -148,6 +151,22 @@ Template Name: Menu
         <div class="menu-excerpt">
           <?php echo get_the_excerpt(); ?>
           <div class="clear"></div>
+        </div>
+        <?php endif; ?>
+
+        <?php if(rwmb_meta('editit_selectmenudisplaycouponinformation')): ?>
+        <div class="menu-coupon-info">
+          <ul>
+            <?php if(rwmb_meta('editit_textmenupresentationconditiontext')): ?>
+              <li><?php _e('Presentation condition', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenupresentationconditiontext'); ?></li>
+            <?php endif; ?>
+            <?php if(rwmb_meta('editit_textmenuuseconditiontext')): ?>
+              <li><?php _e('Use condition', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenuuseconditiontext'); ?></li>
+            <?php endif; ?>
+            <?php if(rwmb_meta('editit_textmenuexpirationdatetext')): ?>
+              <li><?php _e('Expiration date', 'editit'); ?> : <?php echo rwmb_meta('editit_textmenuexpirationdatetext'); ?></li>
+            <?php endif; ?>
+          </ul>
         </div>
         <?php endif; ?>
       </div>

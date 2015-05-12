@@ -202,9 +202,9 @@ Template Name: Event
           <span id="month-name-year-num" class="month-name-year-num"></span>
         </div>
         <nav class="month-nav clearfix">
-          <span id="prev-month" class="prev-month"><i class="icon icon-chevron-left"></i></span>
           <span id="next-month" class="next-month"><i class="icon icon-chevron-right"></i></span>
-          <span id="current-month" class="current-month" title="Got to current date"><i class="icon icon-share"></i></span>
+          <span id="prev-month" class="prev-month"><i class="icon icon-chevron-left"></i></span>
+          <span id="current-month" class="current-month" title="Got to current date"><?php _e( 'Today', 'editit' ); ?></span>
         </nav>
       </div>
       <div id="calendar" class="fc-calendar-container"></div>

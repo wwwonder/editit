@@ -385,7 +385,11 @@ function editit_add_ajax_script_for_event_calendar() {
       <?php // Name of the day  ?>
       <?php if($smof_data['select_nameoftheday']): ?>
         <?php if($smof_data['select_nameoftheday'] == 'English Abbreviate'): ?>$.Calendario.defaults.displayWeekAbbr = true;<?php endif; ?>
-        <?php if($smof_data['select_nameoftheday'] == 'Japanese'): ?>$.Calendario.defaults.weeks = [ '日', '月', '火', '水', '木', '金', '土' ];<?php endif; ?>
+        //<?php if($smof_data['select_nameoftheday'] == 'Japanese'): ?>$.Calendario.defaults.weeks = [ '日', '月', '火', '水', '木', '金', '土' ];<?php endif; ?>
+
+        <?php if($smof_data['select_nameoftheday'] == 'Japanese'): ?>$.Calendario.defaults.weekabbrs = [ '日', '月', '火', '水', '木', '金', '土' ];<?php endif; ?>
+
+
       <?php endif; ?>
 
 
@@ -545,15 +549,15 @@ function editit_show_event_calendar() {
     // 表示html組み立て
       // 詳細有
       if(rwmb_meta('editit_selecteventlinktosinglepage')){
-        $html = "<span><a href='" .  get_permalink() . "'>" . get_the_title() . "</a></span>";
+        $html = "<span>● <a href='" .  get_permalink() . "'>" . get_the_title() . "</a></span>";
       }else{
       // 詳細無
         // URL有
         if(rwmb_meta('editit_urleventlinkurl') != ''){
-          $html = "<span><a href='" . rwmb_meta("editit_urleventlinkurl") . "' target='_blank'>" . get_the_title() . "</a></span>";
+          $html = "<span>● <a href='" . rwmb_meta("editit_urleventlinkurl") . "' target='_blank'>" . get_the_title() . "</a></span>";
         }else{
         // URL無
-          $html = "<span>" . get_the_title() . "</span>";
+          $html = "<span>● " . get_the_title() . "</span>";
         }
       }
 

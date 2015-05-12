@@ -1043,6 +1043,58 @@ function editit_register_meta_boxes(){
   );
 
 
+  /* Menu Coupon Settings */
+  $meta_boxes[] = array(
+    'id'            => 'menucouponsettings',
+    'title'         => __( 'Menu Coupon Settings', 'editit' ),
+    'pages'         => array('menu'),
+    'context'       => 'normal',
+    'priority'      => 'high',
+    'fields'        => array(
+
+      array(
+        'name'     => __( 'Display Coupon Information', 'editit' ),
+        'id'       => "{$prefix}selectmenudisplaycouponinformation",
+        'type'     => 'select',
+        'options'  => array(
+                        0 => __( 'No', 'editit' ),
+                        1 => __( 'Yes', 'editit' )
+                      ),
+        'multiple' => false,
+        'std'      => 0
+      ),
+
+      array(
+        'name'     => __( 'Presentation condition', 'editit' ),
+        'id'       => "{$prefix}textmenupresentationconditiontext",
+        'desc'     => '',
+        'type'     => 'text',
+        'std'      => '',
+        'clone'    => false
+      ),
+
+      array(
+        'name'     => __( 'Use condition', 'editit' ),
+        'id'       => "{$prefix}textmenuuseconditiontext",
+        'desc'     => '',
+        'type'     => 'text',
+        'std'      => '',
+        'clone'    => false
+      ),
+
+      array(
+        'name'     => __( 'Expiration date', 'editit' ),
+        'id'       => "{$prefix}textmenuexpirationdatetext",
+        'desc'     => '',
+        'type'     => 'text',
+        'std'      => '',
+        'clone'    => false
+      )
+
+    )
+  );
+
+
   /* Menu Page Setting */
   $meta_boxes[] = array(
     'id'            => 'menupagesettings',

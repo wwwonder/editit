@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EDITIT\n"
-"POT-Creation-Date: 2015-05-07 21:46+0900\n"
-"PO-Revision-Date: 2015-05-07 21:46+0900\n"
+"POT-Creation-Date: 2015-05-12 10:18+0900\n"
+"PO-Revision-Date: 2015-05-12 10:19+0900\n"
 "Last-Translator: \n"
 "Language-Team: editit <info@editit.jp>\n"
 "Language: japanese\n"
@@ -197,6 +197,10 @@ msgstr "見つかりませんでした。"
 msgid "No Event After Today."
 msgstr "本日以降のイベントはありません。"
 
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-event.php:207
+msgid "Today"
+msgstr "今日"
+
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-faq.php:41
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-menu.php:42
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-portfolio.php:49
@@ -255,7 +259,7 @@ msgid "Permalink to %s"
 msgstr "%sへのパーマリンク"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:148
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1784
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1836
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:26
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:100
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:107
@@ -265,7 +269,7 @@ msgstr "Twitter"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:154
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2332
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1793
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1845
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:32
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:106
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:113
@@ -274,7 +278,7 @@ msgid "Facebook"
 msgstr "Facebook"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:160
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1802
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1854
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:38
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:112
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:119
@@ -283,7 +287,7 @@ msgid "Google+"
 msgstr "Google+"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:166
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1811
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1863
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:118
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:125
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-right.php:66
@@ -292,7 +296,7 @@ msgstr "Skype"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:172
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/author.php:55
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1767
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1819
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:44
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:124
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:131
@@ -303,6 +307,34 @@ msgstr "Skype"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/contact-info.php:118
 msgid "Email"
 msgstr "Eメール"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-menu.php:133
+msgid "Coupon"
+msgstr "クーポン"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-menu.php:161
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1068
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/fullmedia-on-top.php:104
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-left.php:104
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-right.php:44
+msgid "Presentation condition"
+msgstr "提示条件"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-menu.php:164
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1077
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/fullmedia-on-top.php:107
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-left.php:107
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-right.php:47
+msgid "Use condition"
+msgstr "利用条件"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-menu.php:167
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1086
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/fullmedia-on-top.php:110
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-left.php:110
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-right.php:50
+msgid "Expiration date"
+msgstr "有効期限"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/searchform.php:15
 msgid "Search Here"
@@ -503,13 +535,13 @@ msgid "Background Setting (only work when Boxed Layout is enabled)"
 msgstr "背景の設定（ボックスレイアウトを選択時に適用されます。）"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:169
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2030
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2155
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2082
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2207
 msgid "Background Color"
 msgstr "背景色"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:177
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2037
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2089
 msgid "Background Image Upload"
 msgstr "背景画像のアップロード"
 
@@ -518,147 +550,147 @@ msgid "Upload Background Image or Select from Media Library"
 msgstr "背景画像をアップロードするかメディアライブラリから選んでください。"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:186
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2045
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2170
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2097
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2222
 msgid "Background Image Repeat"
 msgstr "背景画像の繰り返し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:192
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:991
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2050
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2174
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2102
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2226
 msgid "Repeat"
 msgstr "繰り返し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:193
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:992
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2049
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2175
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2101
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2227
 msgid "No Repeat"
 msgstr "繰り返し無し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:194
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:993
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2051
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2176
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2103
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2228
 msgid "Repeat Horizontal"
 msgstr "水平方向の繰り返し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:195
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:994
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2052
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2177
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2104
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2229
 msgid "Repeat Vertical"
 msgstr "垂直方向の繰り返し"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:200
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2185
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2237
 msgid "Background Image Attachment"
 msgstr "背景画像のスクロール"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:206
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2189
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2241
 msgid "Fixed"
 msgstr "固定"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:207
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2190
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2242
 msgid "Scroll"
 msgstr "スクロール"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:212
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2060
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2198
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2112
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2250
 msgid "Background Image Position"
 msgstr "背景画像の配置"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:218
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1005
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2064
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2202
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2116
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2254
 msgid "Left Top"
 msgstr "Left Top"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:219
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1006
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2065
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2203
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2117
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2255
 msgid "Left Center"
 msgstr "Left Center"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:220
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1007
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2066
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2204
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2118
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2256
 msgid "Left Bottom"
 msgstr "Left Bottom"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:221
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1008
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2067
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2205
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2119
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2257
 msgid "Right Top"
 msgstr "Right Top"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:222
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1009
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2068
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2206
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2120
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2258
 msgid "Right Center"
 msgstr "Right Center"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:223
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1010
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2069
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2207
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2121
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2259
 msgid "Right Bottom"
 msgstr "Right Bottom"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:224
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1011
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2070
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2208
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2122
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2260
 msgid "Center Top"
 msgstr "Center Top"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:225
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1012
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2071
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2209
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2123
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2261
 msgid "Center Center"
 msgstr "Center Center"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:226
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1013
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2072
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2210
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2124
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2262
 msgid "Center Bottom"
 msgstr "Center Bottom"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:231
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2080
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2218
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2132
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2270
 msgid "Background Image Size"
 msgstr "背景画像のサイズ"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:237
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1024
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2084
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2222
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2136
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2274
 msgid "Auto"
 msgstr "Auto"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:238
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1025
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2085
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2223
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2137
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2275
 msgid "Contain"
 msgstr "Contain"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:239
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1026
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2086
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2224
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2138
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2276
 msgid "Cover"
 msgstr "Cover"
 
@@ -1406,9 +1438,9 @@ msgid "Portfolio Information Link Label"
 msgstr "ポートフォリオ情報リンクラベル"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1701
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/fullmedia-on-top.php:114
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-left.php:113
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-right.php:54
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/fullmedia-on-top.php:134
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-left.php:134
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/menu/media-on-right.php:70
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/portfolio/fullmedia-on-top.php:106
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/portfolio/media-on-left.php:104
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/portfolio/media-on-right.php:45
@@ -2598,16 +2630,17 @@ msgstr "ページコンテンツの表示"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:761
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:773
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:823
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1066
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1078
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1060
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1118
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1130
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1339
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1351
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1402
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1651
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1691
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2021
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2146
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1182
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1391
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1403
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1454
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1703
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1743
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2073
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2198
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-event.php:177
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-news.php:143
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-posts.php:144
@@ -2625,16 +2658,17 @@ msgstr "いいえ"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:762
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:774
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:824
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1067
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1079
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1061
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1119
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1131
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1340
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1352
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1403
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1652
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1692
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2022
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2147
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1183
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1392
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1404
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1455
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1704
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1744
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2074
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2199
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-event.php:176
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-news.php:142
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-posts.php:143
@@ -2815,8 +2849,8 @@ msgstr "ギャラリーの設定（フォーマットでギャラリーを選択
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:634
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:864
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1171
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1733
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1223
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1785
 msgid "Gallery Image Upload (Max 10pic)"
 msgstr "ギャラリー画像のアップロード（最大10画像）"
 
@@ -2863,17 +2897,17 @@ msgstr "動画の設定（フォーマットで動画を選択時に適用され
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:725
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:872
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1179
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1451
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1741
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1231
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1503
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1793
 msgid "Video Embed"
 msgstr "動画の埋め込み"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:726
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:873
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1180
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1452
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1742
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1232
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1504
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1794
 msgid "Enter Video Embed Code"
 msgstr "動画の埋め込みコードを入力してください。"
 
@@ -2888,15 +2922,15 @@ msgstr ""
 "す。"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:757
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1062
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1335
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1647
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1114
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1387
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1699
 msgid "Link to Single"
 msgstr "個別記事へのリンク"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:769
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1074
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1347
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1126
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1399
 msgid "Link to Lightbox"
 msgstr "ライトボックスへのリンク"
 
@@ -2909,23 +2943,23 @@ msgid "Portfolio Single Layout"
 msgstr "ポートフォリオ個別記事レイアウト"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:798
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1105
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1377
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1678
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1157
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1429
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1730
 msgid "Media On Left"
 msgstr "メディアの左側配置"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:799
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1106
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1378
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1679
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1158
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1430
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1731
 msgid "Media On Right"
 msgstr "メディアの右側配置"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:800
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1107
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1379
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1680
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1159
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1431
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1732
 msgid "Full Media On Top"
 msgstr "フルサイズメディアの上部配置"
 
@@ -2934,14 +2968,14 @@ msgid "Portfolio Image Display"
 msgstr "ポートフォリオ画像の表示"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:811
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1118
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1390
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1170
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1442
 msgid "Slider"
 msgstr "スライダー"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:812
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1119
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1391
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1171
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1443
 msgid "No Slider"
 msgstr "スライダーなし"
 
@@ -2955,9 +2989,9 @@ msgid "Portfolio Media"
 msgstr "ポートフォリオメディア"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:845
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1152
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1424
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1714
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1204
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1476
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1766
 msgid ""
 "When [ Gallery Image ] or [ Video Embed ] are not set, featured image is "
 "displayed in original aspect ratio."
@@ -2966,16 +3000,16 @@ msgstr ""
 "像がオリジナルの縦横比で表示されます。"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:855
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1162
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1434
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1724
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1214
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1486
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1776
 msgid "Image"
 msgstr "画像"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:856
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1163
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1435
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1725
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1215
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1487
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1777
 msgid "Video"
 msgstr "動画"
 
@@ -3004,207 +3038,215 @@ msgid "Price"
 msgstr "価格"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1049
+msgid "Menu Coupon Settings"
+msgstr "クーポン設定"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1056
+msgid "Display Coupon Information"
+msgstr "クーポン情報の表示"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1101
 msgid "Menu Page Setting"
 msgstr "メニュー一覧ページ設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1057
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1109
 msgid "[ Featured Image ] is displayed on the menu page."
 msgstr ""
 "メニュー一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1093
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1145
 msgid "Menu Single Layout Setting"
 msgstr "メニュー個別記事レイアウト設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1101
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1153
 msgid "Menu Single Layout"
 msgstr "メニュー個別記事レイアウト"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1114
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1166
 msgid "Menu Image Display"
 msgstr "メニュー画像の表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1126
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1178
 msgid "Show Menu Information"
 msgstr "メニュー情報の表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1144
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1158
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1196
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1210
 msgid "Menu Media"
 msgstr "メニューメディア"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1207
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1259
 msgid "Menu Information"
 msgstr "メニュー情報"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1215
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1267
 msgid ""
 "You can set the Menu Information Label in [ Appearance > Theme Options > "
 "Menu ]."
 msgstr ""
 "メニュー情報ラベルは[ 外観 > テーマオプション > メニュー ]で設定できます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1322
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1374
 msgid "Event Page Setting"
 msgstr "イベント一覧ページ設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1330
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1382
 msgid "[ Featured Image ] is displayed on the event page."
 msgstr ""
 "イベント一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1365
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1417
 msgid "Event Single Layout Setting"
 msgstr "イベント個別記事レイアウト設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1373
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1425
 msgid "Event Single Layout"
 msgstr "イベント個別記事レイアウト"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1386
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1438
 msgid "Event Image Display"
 msgstr "イベント画像の表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1398
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1450
 msgid "Show Event Information"
 msgstr "イベント情報の表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1416
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1430
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1468
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1482
 msgid "Event Media"
 msgstr "イベントメディア"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1443
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1495
 msgid "Event Image Upload (Max 10pic)"
 msgstr "イベント画像のアップロード（最大10画像）"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1481
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1533
 msgid "Event Information"
 msgstr "イベント情報"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1489
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1541
 msgid "Event Start Date"
 msgstr "イベント開始日"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1503
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1555
 msgid "Event End Date"
 msgstr "イベント終了日"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1516
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1568
 msgid "Event Link URL(If not link to single page)"
 msgstr "イベント リンク URL(個別ページへリンクが無い場合に有効)"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1525
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1577
 msgid ""
 "You can set the Event Information Label in [ Appearance > Theme Options > "
 "Event ]."
 msgstr ""
 "イベント情報ラベルは[ 外観 > テーマオプション > イベント ]で設定できます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1634
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1686
 msgid "Member Page Setting"
 msgstr "メンバー一覧ページ設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1642
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1694
 msgid "[ Featured Image ] is displayed on the member page."
 msgstr ""
 "メンバー一覧ページには [ アイキャッチ画像 ] で設定した画像が表示されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1666
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1718
 msgid "Member Layout Setting"
 msgstr "レイアウト設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1674
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1726
 msgid "Member Layout"
 msgstr "レイアウト"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1687
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1739
 msgid "Show Member Information"
 msgstr "メンバー情報の表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1706
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1720
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1758
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1772
 msgid "Member Media"
 msgstr "メンバーメディア"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1760
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1812
 msgid "Member Social Information"
 msgstr "ソーシャルメディア情報"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1775
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1827
 msgid "Website URL"
 msgstr "ウェブサイト URL"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1839
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1891
 msgid "Member Information"
 msgstr "メンバー情報"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1847
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1899
 msgid "Member Position"
 msgstr "所属・役職・ポジション"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1857
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1909
 msgid ""
 "You can set the Member Information Label in [ Appearance > Theme Options > "
 "Member ]."
 msgstr ""
 "メンバー情報ラベルは[ 外観 > テーマオプション > メンバー ]で設定できます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1965
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2017
 msgid "Titlebar Settings"
 msgstr "タイトルバー設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1973
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2025
 msgid "Titlebar"
 msgstr "タイトルバー"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1977
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2029
 msgid "Default Titlebar"
 msgstr "デフォルトのタイトルバー"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1978
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2030
 msgid "Only Breadcrumbs"
 msgstr "パンくずリストだけを表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1979
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2031
 msgid "No Titlebar"
 msgstr "タイトルバー非表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1980
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2101
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2032
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2153
 msgid "Revolution Slider"
 msgstr "Revolution Slider"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1981
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2110
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2033
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2162
 msgid "FlexSlider"
 msgstr "FlexSlider"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1989
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2041
 msgid "Sub Title"
 msgstr "サブタイトル"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1999
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2051
 msgid "Summary"
 msgstr "概要"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2011
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2063
 msgid "Background settings for Titlebar section"
 msgstr "タイトルバーセクションの背景設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2017
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2069
 msgid "Enable Titlebar Background"
 msgstr "タイトルバー背景の有効化"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2095
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2147
 msgid "Select Slider"
 msgstr "スライダーの選択"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2127
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2179
 msgid "Background Settings"
 msgstr "背景設定"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2136
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2188
 msgid ""
 "Please note that you need to set site layout to \"Boxed\" in order to see "
 "custom background."
@@ -3212,11 +3254,11 @@ msgstr ""
 "背景を有効にするためにはサイトレイアウトを\"ボックスレイアウト\"に設定する必"
 "要がある点に注意してください。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2142
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2194
 msgid "Enable Background?"
 msgstr "背景の有効化"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2162
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:2214
 msgid "Background Image"
 msgstr "背景画像"
 
