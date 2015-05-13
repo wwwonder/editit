@@ -57,8 +57,9 @@ Template Name: Event
         'post_status'         => 'publish',
         'ignore_sticky_posts' => 1,
         'paged'               => $paged,
-        'orderby'             => 'meta_value',
         'meta_key'            => 'editit_dateeventstartdate',
+        'orderby'             => 'meta_value',
+        'order'               => 'ASC',
         'meta_query'          => array(
                                    array(  'key'     =>  'editit_dateeventenddate',
                                            'value'   =>  $today_date,
