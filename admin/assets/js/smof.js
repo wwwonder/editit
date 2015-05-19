@@ -202,7 +202,7 @@ jQuery(document).ready(function($){
   //Remove individual slide
   $('.slide_delete_button').live('click', function(){
   // event.preventDefault();
-  var agree = confirm("Are you sure you wish to delete this slide?");
+  var agree = confirm("本当にこのスライドを削除してもよろしいですか？");
     if (agree) {
       var $trash = $(this).parents('li');
       //$trash.slideUp('slow', function(){ $trash.remove(); }); //chrome + confirm bug made slideUp not working...
@@ -286,7 +286,7 @@ jQuery(document).ready(function($){
   //backup button
   $('#of_backup_button').live('click', function(){
   
-    var answer = confirm("Click OK to backup your current saved options.")
+    var answer = confirm("現在の設定を保存するために「OK」をクリックしてください。")
     
     if (answer){
   
@@ -333,7 +333,7 @@ jQuery(document).ready(function($){
   //restore button
   $('#of_restore_button').live('click', function(){
   
-    var answer = confirm("'Warning: All of your current options will be replaced with the data from your last backup! Proceed?")
+    var answer = confirm("警告： 現在のオプションの全ては最後のバックアップデータと入れ替わります！続行しますか？")
     
     if (answer){
   
@@ -380,7 +380,7 @@ jQuery(document).ready(function($){
   /** Ajax Transfer (Import/Export) Option */
   $('#of_import_button').live('click', function(){
   
-    var answer = confirm("Click OK to import options.")
+    var answer = confirm("オプションをインポートするために、「OK」をクリックしてください。")
     
     if (answer){
   
@@ -475,7 +475,7 @@ jQuery(document).ready(function($){
   $('#of_reset').click(function() {
     
     //confirm reset
-    var answer = confirm("Click OK to reset. All settings will be lost and replaced with default settings!");
+    var answer = confirm("リセットするためには「OK」をクリックしてください。全ての設定は初期設定に入れ替わります！");
     
     //ajax reset
     if (answer){

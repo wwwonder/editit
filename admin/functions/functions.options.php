@@ -2293,8 +2293,15 @@ $of_options[] = array(
                   "id"        => "text_socialemail",
                   "std"       => "",
                   "type"      => "text"
-                ); 
+                );
 
+$of_options[] = array(
+                  "name"      => __('Phone Number', 'editit'),
+                  "desc"      => __('Enter URL to your phone number', 'editit'),
+                  "id"        => "text_socialphonenumber",
+                  "std"       => "",
+                  "type"      => "text"
+                );
 
 $of_options[] = array(
                   "name"      => __('Show RSS', 'editit'),

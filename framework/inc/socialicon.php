@@ -53,7 +53,10 @@
           <li class="social-linkedin"><a href="<?php echo $smof_data['text_sociallinkedin']; ?>" target="_blank" title="LinkedIn"><i class="icon icon-linkedin-square"></i></a></li>
 <?php endif; ?>
 <?php if($smof_data['text_socialemail'] != "") : ?>
-          <li class="social-email"><a href="mailto:<?php echo $smof_data['text_socialemail']; ?>" title="email"><i class="icon icon-envelope-o"></i></a></li>
+          <li class="social-email"><a href="mailto:<?php echo $smof_data['text_socialemail']; ?>" title="<?php _e( 'Email', 'editit'); ?>"><i class="icon icon-envelope-o"></i></a></li>
+<?php endif; ?>
+<?php if($smof_data['text_socialphonenumber'] != "") : ?>
+          <li class="social-phonenumber"><a href="tel:<?php echo $smof_data['text_socialphonenumber']; ?>" title="<?php _e('Phone Number', 'editit'); ?>"><i class="icon icon-phone"></i></a></li>
 <?php endif; ?>
 <?php if($smof_data['switch_socialshowrss']) : ?>
           <li class="social-rss"><a href="<?php bloginfo('rss2_url'); ?>" target="_blank" title="RSS"><i class="icon icon-rss"></i></a></li>

@@ -40,6 +40,12 @@
       height: auto;
     }
 
+    .header .logo img:hover { 
+      filter:alpha(opacity=100);
+      -moz-opacity: 1;
+      opacity: 1;
+    }
+
     .header .logo .logo-retina { display: none; }
 
 

@@ -250,15 +250,27 @@ a:focus {
 }
 
 
+
+a img:hover {
+  filter:alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+
+
+
 /* -- Transititon for Links -- */
 
-a {
+a,
+a img {
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
       -ms-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 }
+
 
 
 /* -- Lists -- */
@@ -2169,6 +2181,9 @@ ul.social-icons { margin: 0; }
           -ms-transform: scale(1.1,1.1);
            -o-transform: scale(1.1,1.1);
               transform: scale(1.1,1.1);
+      filter:alpha(opacity=100);
+      -moz-opacity: 1;
+      opacity: 1;
     }
 
 /*  Footer 1/3 */

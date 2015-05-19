@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EDITIT\n"
-"POT-Creation-Date: 2015-05-12 10:18+0900\n"
-"PO-Revision-Date: 2015-05-12 10:19+0900\n"
+"POT-Creation-Date: 2015-05-17 15:36+0900\n"
+"PO-Revision-Date: 2015-05-17 15:37+0900\n"
 "Last-Translator: \n"
 "Language-Team: editit <info@editit.jp>\n"
 "Language: japanese\n"
@@ -193,11 +193,11 @@ msgstr "(編集)"
 msgid "Not Found"
 msgstr "見つかりませんでした。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-event.php:184
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-event.php:185
 msgid "No Event After Today."
 msgstr "本日以降のイベントはありません。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-event.php:207
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-event.php:208
 msgid "Today"
 msgstr "今日"
 
@@ -268,7 +268,7 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/page-member.php:154
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2332
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2339
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1845
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:32
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:106
@@ -517,12 +517,12 @@ msgstr "レスポンシブレイアウトを有効にする"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1325
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1333
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:1353
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2301
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2327
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2362
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2370
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2378
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2397
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2308
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2334
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2369
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2377
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2385
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2404
 msgid "Default"
 msgstr "初期値"
 
@@ -1855,67 +1855,75 @@ msgstr "メールアドレス"
 msgid "Enter URL to your mail address"
 msgstr "メールアドレスを入力してください。"
 
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2299
+msgid "Phone Number"
+msgstr "電話番号"
+
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2300
+msgid "Enter URL to your phone number"
+msgstr "電話番号を入力してください。"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2307
 msgid "Show RSS"
 msgstr "RSSアイコンの表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2321
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2328
 msgid "Lightbox Theme"
 msgstr "ライトボックス テーマ"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2328
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2335
 msgid "Light Rounded"
 msgstr "Light Rounded"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2329
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2336
 msgid "Dark Rounded"
 msgstr "Dark Rounded"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2330
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2337
 msgid "Light Square"
 msgstr "Light Square"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2331
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2338
 msgid "Dark Square"
 msgstr "Dark Square"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2337
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2344
 msgid "Animation Speed"
 msgstr "アニメーション スピード"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2343
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2350
 msgid "Fast"
 msgstr "速い"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2344
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2351
 msgid "Slow"
 msgstr "遅い"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2345
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2352
 msgid "Normal"
 msgstr "普通"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2350
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2357
 msgid "Background Opacity"
 msgstr "背景の透明度"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2361
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2368
 msgid "Show title"
 msgstr "タイトルの表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2369
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2376
 msgid "Show Gallery Thumbnails"
 msgstr "ギャラリーのサムネイルの表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2377
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2384
 msgid "Autoplay Gallery"
 msgstr "ギャラリーのオートプレイ"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2385
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2392
 msgid "Autoplay Gallery Speed"
 msgstr "ギャラリーのオートプレイスピード"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2386
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2393
 msgid ""
 "If autoplay is set to ON, select the slideshow speed in ms. (Default: 5000, "
 "1000 ms = 1 second)"
@@ -1923,15 +1931,15 @@ msgstr ""
 "ギャラリーのオートプレイをONに設定した場合にスライドショーのスピードをmsで選"
 "択してください（初期値：5000、1000ms = 1秒）。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2396
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2403
 msgid "Social Icons"
 msgstr "ソーシャルアイコンの表示"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2404
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2411
 msgid "Disable Lightbox on Smartphone"
 msgstr "スマートフォンでのライトボックスの無効化"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2405
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2412
 msgid ""
 "Switch ON to disable Lightbox on Smartphones. This will link directly to the "
 "image"
@@ -1939,20 +1947,20 @@ msgstr ""
 "ONに設定でスマートフォンでのライトボックスが無効化されます。画像へ直接リンク"
 "されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2412
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2419
 msgid "Disable automatic Lightbox for Images"
 msgstr "画像のオートライトボックスの無効化"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2413
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2420
 msgid ""
 "If switch ON this will disable automatic Lightbox for Images in the Content."
 msgstr "ONに設定でコンテンツ画像の自動ライトボックスが無効化されます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2434
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2441
 msgid "Backup and Restore Options"
 msgstr "バックアップと復元オプション"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2438
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2445
 msgid ""
 "You can use the two buttons below to backup your current options, and then "
 "restore it back at a later time. This is useful if you want to experiment on "
@@ -1962,11 +1970,11 @@ msgstr ""
 "への復元ができます。これは新しいオプションの設定を試した時に、前の設定に戻す"
 "時に役に立ちます。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2442
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2449
 msgid "Transfer Theme Options Data"
 msgstr "テーマオプションデータの転写"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2446
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2453
 msgid ""
 "You can tranfer the saved options data between different installs by copying "
 "the text inside the text box. To import data from another install, replace "

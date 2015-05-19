@@ -532,7 +532,7 @@ global $smof_data;
   /* --Event-- */
   .prev-month:hover i,
   .next-month:hover i,
-  .current-month:hover i { color: <?php echo $smof_data['color_accentcolor'] ?> !important; }
+  .current-month:hover { color: <?php echo $smof_data['color_accentcolor'] ?> !important; }
 
   /* --FAQ-- */
   .faq-item dt.active i:before {
