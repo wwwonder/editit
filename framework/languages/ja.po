@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: EDITIT\n"
-"POT-Creation-Date: 2015-05-17 15:36+0900\n"
-"PO-Revision-Date: 2015-05-17 15:37+0900\n"
+"POT-Creation-Date: 2015-05-20 14:01+0900\n"
+"PO-Revision-Date: 2015-05-20 14:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: editit <info@editit.jp>\n"
 "Language: japanese\n"
@@ -218,11 +218,11 @@ msgstr "すべて"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/single-portfolio.php:95
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/single-portfolio.php:120
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/single.php:60
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:971
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1071
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1163
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1186
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1321
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:973
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1073
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1165
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1188
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1323
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/archive/content-news.php:25
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/archive/content.php:25
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:83
@@ -298,6 +298,7 @@ msgstr "Skype"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/author.php:55
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/meta-box.php:1819
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/sharebox.php:44
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/socialicon.php:56
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/fullmedia-on-top.php:124
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-left.php:131
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/member/media-on-right.php:72
@@ -382,6 +383,10 @@ msgstr "設定の復元"
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/classes/class.options_machine.php:1120
 msgid "Import Options"
 msgstr "設定のインポート"
+
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/classes/class.options_machine.php:1325
+msgid "Upload"
+msgstr "アップロード"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/front-end/options.php:4
 msgid "Options Updated"
@@ -1856,6 +1861,7 @@ msgid "Enter URL to your mail address"
 msgstr "メールアドレスを入力してください。"
 
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/admin/functions/functions.options.php:2299
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/socialicon.php:59
 msgid "Phone Number"
 msgstr "電話番号"
 
@@ -3274,22 +3280,22 @@ msgstr "背景画像"
 msgid "Share This Story."
 msgstr "この記事を共有する。"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:902
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:904
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-posts.php:98
 msgid "Recent Posts"
 msgstr "最近の投稿"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1000
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1002
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-news.php:98
 msgid "Recent News"
 msgstr "最近のニュース"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1102
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1104
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-portfolio.php:109
 msgid "Recent Portfolio"
 msgstr "最近のポートフォリオ"
 
-#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1215
+#: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/shortcodes.php:1217
 #: C:\Users\Masato\Dropbox\ìÆ\|bv[editit.jp]\ftp\dev\editit/framework/inc/widgets/recent-event.php:129
 msgid "Recent Event"
 msgstr "最近のイベント"

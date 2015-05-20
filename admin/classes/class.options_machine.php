@@ -1322,10 +1322,10 @@ class Options_Machine {
     $uploader .= '<div class="upload_button_div">';
     //If the user has WP3.5+ show upload/remove button
     if ( function_exists( 'wp_enqueue_media' ) ) {
-      $uploader .= '<span class="button media_upload_button" id="'.$id.'">Upload</span>';
+      $uploader .= '<span class="button media_upload_button" id="'.$id.'">' . __('Upload', 'editit') . '</span>';
       
       if(!empty($upload)) {$hide = '';} else { $hide = 'hide';}
-      $uploader .= '<span class="button remove-image '. $hide.'" id="reset_'. $id .'" title="' . $id . '">Remove</span>';
+      $uploader .= '<span class="button remove-image '. $hide.'" id="reset_'. $id .'" title="' . $id . '">' . __('Remove', 'editit') . '</span>';
     }
     else 
     {
@@ -1398,10 +1398,10 @@ class Options_Machine {
     $slider .= '<label>Image URL</label>';
     $slider .= '<input class="upload slide of-input" name="'. $id .'['.$order.'][url]" id="'. $id .'_'.$order .'_slide_url" value="'. $val['url'] .'" />';
     
-    $slider .= '<div class="upload_button_div"><span class="button media_upload_button" id="'.$id.'_'.$order .'">Upload</span>';
+    $slider .= '<div class="upload_button_div"><span class="button media_upload_button" id="'.$id.'_'.$order .'">' . __('Upload', 'editit') . '</span>';
     
     if(!empty($val['url'])) {$hide = '';} else { $hide = 'hide';}
-    $slider .= '<span class="button remove-image '. $hide.'" id="reset_'. $id .'_'.$order .'" title="' . $id . '_'.$order .'">Remove</span>';
+    $slider .= '<span class="button remove-image '. $hide.'" id="reset_'. $id .'_'.$order .'" title="' . $id . '_'.$order .'">' . __('Remove', 'editit') . '</span>';
     $slider .='</div>' . "\n";
     $slider .= '<div class="screenshot">';
     if(!empty($val['url'])){

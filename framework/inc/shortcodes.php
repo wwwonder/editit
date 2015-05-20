@@ -372,15 +372,17 @@ function editit_icon( $atts, $content = null ) {
     'rotate'     => 'normal'
   ), $atts));
 
+
   if($size == 'large') {
-    $icon_size = ' icon-large';
+    $icon_size = ' large';
   }elseif($size == 'medium') {
-    $icon_size = ' icon-medium';
+    $icon_size = ' medium';
   }elseif($size == 'small') {
-    $icon_size = ' icon-small';
+    $icon_size = ' small';
   }else{
-    $icon_size = ' icon-small';
+    $icon_size = ' small';
   }
+
 
   if($circle == 'true') {
     $icon_circ = ' icon-circ';
